@@ -43,7 +43,6 @@ body {
           transition-delay: 0s;
     padding-top: 10px;
     font-size: 2vw; /* 1vw = 1% of viewport width */
-	  height: auto;
   }
 
 }
