@@ -46,7 +46,6 @@ h1 { /* Site name */
 }
  a:hover, .header-nav a:focus {
   text-decoration: none;
-  background: #E7E7E7;
 }
 
 #row {
@@ -124,8 +123,10 @@ h1 { /* Site name */
  background-size: cover;
       width:100%;
       height: 50vw;
-      border-radius: 10% 10% 10% 10%;
+      border-radius: 5% 5% 5% 5%;
 	  float: auto;
+	 margin-bottom:10%;
+
 	 }
 	
 
@@ -136,8 +137,7 @@ h1 { /* Site name */
 
  /* background: url('../images/main_large.jpeg') no-repeat;*/
     background: white;
-	padding:2%;
-
+	  	padding:5%;
 	 }
 	
 	
@@ -146,27 +146,27 @@ h1 { /* Site name */
 
  	position:relative;
 	
- background: url('../images/main_home.png') no-repeat center;
+ background: url('../images/health-food.jpeg') no-repeat center;
  background-size: cover;
      width:100%;
       height: 20vw;
       border-radius: 10% 10% 10% 10%;
 	  float: auto;
 		  	color: red;
-padding: 5px;
+	margin: 5px;
 
    }
    
    #descr2 {
 	position:relative;
 	
- background: url('../images/main_home.png') no-repeat center;
+ background: url('../images/Classes.jpeg') no-repeat center;
  background-size: cover;
      width:100%;
       height: 20vw;
       border-radius: 10% 10% 10% 10%;
 	  float: auto;
-	  padding: 5px;
+	margin: 5px;
 	   	color: red;    
    }
    
@@ -179,8 +179,8 @@ padding: 5px;
       height: 20vw;
       border-radius: 10% 10% 10% 10%;
 	  float: auto;
-	  padding: 5px;
-		 	color: red;
+	margin: 5px;
+		color: red;
 		
    }
    
@@ -193,13 +193,26 @@ padding: 5px;
 		font-size:3vw;
    }
    
-     
+     span {
+ 		  text-align: center;
+	    font-size: 2vw; /* 1vw = 1% of viewport width */
+		text-shadow: 2px 2px 2px #222;	
+	position: relative;
+	bottom: 0px;
+	left: 0px;
+	font-weight:bold;
+	  opacity: .8
+	}
 
    
-    #descr1:hover, #descr1:focus,#descr2:hover, #descr2:focus ,#descr3:hover, #descr3:focus  {
+    #descr1:hover, #descr1:focus,#descr2:hover, #descr2:focus ,#descr3:hover, #descr3:focus span{
+          -webkit-transition: all 0.5s ease-in-out;
   text-decoration: none;
-  background: #E7E7E7;
-  opacity:0.5;
+  opacity: .8;
+  background: url('../images/health-food.jpeg') no-repeat ;
+  background-position: bottom;
+  border-radius: 100% ;
+  text-position:bottom;
 }
 	
 
@@ -219,15 +232,7 @@ padding: 5px;
 /* END FOOTER */
 
 
-span {
- 		  text-align: center;
-	    font-size: 2vw; /* 1vw = 1% of viewport width */
-		text-shadow: 2px 2px 2px #222;	
-	position: relative;
-	bottom: 0px;
-	left: 0px;
-	font-weight:bold;
-	}
+
 
 
 
