@@ -9,7 +9,6 @@ body {
 #title {
 	font-family: 'Gentium Basic', serif;
   background-color: #FFFFF0;
-  border-radius: 1%;
   width:90%;
   height: auto;
   margin: auto, 0, auto, 0;
@@ -18,23 +17,28 @@ body {
 }
 
 #menu-list {
-	font-family: 'Gentium Basic', serif;
-  background-color: #FFFFF0;
-  border-radius: 1%;
+font-family: 'Gentium Basic', serif;
   width:100%;
   height: auto;
-  margin-left: 1%;
   color: #61122f;
+  margin:0;
+  padding:0;
+  }
   
+  
+  #sections {
+
+  background-color: #FFFFF0;
+  width:100%;
+  height: 200px;
+  margin:4%;
+  padding:0;
+  height: 30vw;
+ 
+ 
 }
 
-  ul {
-  list-style-type: none;
-  position:relative;
-  margin: 0;
-  padding: 0;
-}
-
+ 
 h1 { /* Site name */
 	font-family: 'Gentium Basic', serif;
   color: #DABDAB;
@@ -50,12 +54,10 @@ h1 { /* Site name */
   h2 { /* menu */
 	font-family: 'Gentium Basic', serif;
   color: #DABDAB;
-  font-size: .5vw;
+  font-size: 2.5vw;
   text-shadow: .1vw .1vw .1vw #222;
-  margin-top: 0;
-  margin-bottom: 0;
-      padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
+  margin: 0px;
+  padding:0px;
   }
   
   
@@ -69,24 +71,46 @@ h1 { /* Site name */
 
   }
   
+    #instagram {
+  font-size: 3vw;
+}
+  
   
   
   ul {
-  list-style-type: none;
+    margin: 0;
+  padding: 0;
+}
+  li {
+  margin: 0px;
+  padding:0px;
+}
+
+  hr {
+width:100%;
   margin: 0;
   padding: 0;
 }
 
 
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
 
- #collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 1.1em;
+ #collapsable-nav a{ /* Collapsed nav menu text */
+    font-size: 1vvw;
+	width:100%;
   }
 
 #title span{
   border: 0;
 
-  margin: auto, 0, auto, 0;
+  margin:0;
+  padding:0;
         -webkit-transition: all 0.5s ease-in-out;
           transition: all 0.5s ease-out;
           transition-property: all;
@@ -115,8 +139,9 @@ h1 { /* Site name */
 
  /* background: url('../images/main_large.jpeg') no-repeat;*/
     background:#FFFFF0;
-	padding: 5% 10% 0% 10%;
+	padding: 2% 5% 2% 5%;
 	width:90%;
+	
 }
 
 #box-cerchio{
@@ -126,7 +151,7 @@ background-size: cover;
 width:100%;
 height: 50vw;
 border-radius: 10%;
-margin-bottom:5%;
+margin-bottom:10%;
 }
 	
 	
@@ -189,11 +214,7 @@ margin-bottom:5%;
 	
 	
 	
-	 a:hover, a:focus {
-  text-decoration: none;
-  	color:red;
-	position:relative;
-}
+
 
    #menu-list p {
     margin:0;
@@ -207,7 +228,11 @@ margin-bottom:5%;
 
   }
   
-
+	 a:hover, a:focus {
+  text-decoration: none;
+  	color:red;
+	position:relative;
+}
 
 /* END HOME PAGE */
 
