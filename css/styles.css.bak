@@ -1,36 +1,89 @@
 body {
   font-size: 16px;
-  color: #fff;
-  background-color: #61122f;
-  font-family: 'Oxygen', sans-serif;
+  background-color:  #61122f;
+	font-family: 'Gentium Basic', serif;
   text-align: center;
 }
 
 /** HEADER **/
-#header-nav {
-	  font-family: 'Lora', serif;
-  background-color: #f6b319;
-  border-radius: 45;
-  border: 0;
+#title {
+	font-family: 'Gentium Basic', serif;
+  background-color: #FFFFF0;
+  border-radius: 1%;
+  width:90%;
   height: auto;
   margin: auto, 0, auto, 0;
+  color: #61122f;
+  
+}
+
+#menu-list {
+	font-family: 'Gentium Basic', serif;
+  background-color: #FFFFF0;
+  border-radius: 1%;
+  width:100%;
+  height: auto;
+  margin-left: 1%;
+  color: #61122f;
+  
+}
+
+  ul {
+  list-style-type: none;
+  position:relative;
+  margin: 0;
+  padding: 0;
 }
 
 h1 { /* Site name */
-  font-family: 'Lora', serif;
-  color: #557c3e;
-  font-size: 1.5em;
+	font-family: 'Gentium Basic', serif;
+  color: #DABDAB;
   text-transform: uppercase;
-  font-weight: bold;
-  text-shadow: 5px 5px 5px #222;
+  text-shadow: .2vw .2vw .2vw #222;
   margin-top: 0;
   margin-bottom: 0;
-        -webkit-transition: all 0.5s ease-in-out;
-     padding-top: 10px;
+  -webkit-transition: all 0.5s ease-in-out;
+   padding-top: 10px;
+   font-size: 6vw; /* 1vw = 1% of viewport width */
+  }
+  
+  h2 { /* menu */
+	font-family: 'Gentium Basic', serif;
+  color: #DABDAB;
+  font-size: .5vw;
+  text-shadow: .1vw .1vw .1vw #222;
+  margin-top: 0;
+  margin-bottom: 0;
+      padding-top: 10px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
+  
+  
+    h3 { /* menu */
+	font-family: 'Gentium Basic', serif;
+  color: #DABDAB;
+  font-size: 2vw;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
 
-#header-nav span{
+  }
+  
+  
+  
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+ #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.1em;
+  }
+
+#title span{
   border: 0;
 
   margin: auto, 0, auto, 0;
@@ -42,29 +95,11 @@ h1 { /* Site name */
           transition-delay: 0s;
 		  text-align: center;
 	    font-size: 2vw; /* 1vw = 1% of viewport width */
-		text-shadow: 2px 2px 2px #222;		
+ text-shadow: .1vw .1vw .1vw #222;	
 }
 
-
-
-
-
-
-.navbar-brand {
-  padding-top: 25px;
-}
  
 
-
-
-/* BUTTONS CSS
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
-}
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
-}*/
 /* END HEADER */
 
 
@@ -76,24 +111,23 @@ h1 { /* Site name */
 
 
 	
-	#main-content{
+#main-content{
 
  /* background: url('../images/main_large.jpeg') no-repeat;*/
-    background:#ffe4c4;
-	  	padding: 5% 10% 0% 10%;
-	 }
+    background:#FFFFF0;
+	padding: 5% 10% 0% 10%;
+	width:90%;
+}
 
 #box-cerchio{
-	position:relative;
-	
- background: url('../images/Strang.jpg') no-repeat center;
- background-size: cover;
-      width:100%;
-      height: 50vw;
-      border-radius: 10%;
-	 margin-bottom:5%;
-	 
-	 }
+position:relative;
+background: url('../images/Strang.jpg') center;
+background-size: cover;
+width:100%;
+height: 50vw;
+border-radius: 10%;
+margin-bottom:5%;
+}
 	
 	
 	
@@ -161,6 +195,20 @@ h1 { /* Site name */
 	position:relative;
 }
 
+   #menu-list p {
+    margin:0;
+	padding:0;
+  }
+
+     #menu-list{
+    margin-top:3vw;
+	padding:2vw;
+	background:
+
+  }
+  
+
+
 /* END HOME PAGE */
 
 /* FOOTER */
@@ -170,6 +218,7 @@ h1 { /* Site name */
  /* background: url('../images/main_large.jpeg') no-repeat;*/
       border-radius: 10% 10% 10% 10%;
   font-size: 2vw;
+  color: #FFFFF0;
 	}
 
 /* END FOOTER */

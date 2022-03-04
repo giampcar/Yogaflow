@@ -7,8 +7,14 @@
     <title>Yoga Flow - Manuela Pokrivac</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap" rel="stylesheet" type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+	
+	
 		<link rel="icon" href="images\favicon-96x96.ico" type="image/x-icon" />
 	<link rel="shortcut icon" href="images\favicon-96x96.ico" type="image/x-icon" />
   </head>
@@ -16,43 +22,90 @@
   
 <body>
   <header>
-    <nav id="header-nav" class="navbar navbar-default">
+    <nav id="title" class="navbar navbar-default container-fluid">
             <a href="index.html"><h1>Yoga Flow</h1></a>
             <p>
-              <span>Manuela Pokrivac</span>
+              <span>- Manuela Pokrivac -</span>
             </p>
-	</nav>
+	
+	
+	<nav id="header-nav" class="navbar, navbar-default ">
+	<div class="container-fluid">
+	<button type="button" class="navbar-toggle collapsed  visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+	
+	
+	    <div id="collapsable-nav" class="collapse navbar-collapse, .d-{sm,md,lg,xl}-block ">
+		<ul id="nav-list" class="nav navbar-nav navbar-right">
+           <li><a href="index.html"><h2>Home</h2></a></li>
+		   <hr> </hr>
+			<li><a href="index.html"><h2>Blog</h2></a></li>
+			<hr> </hr>
+			<li><a href="index.html"><h2>Calendar</h2></a></li>
+			<hr> </hr>
+			<li><a href="index.html"><h2>Contact</h2></a></li>
+		</ul>
+	</div><!-- .collapse .navbar-collapse -->
+	</div><!-- .container -->
+</nav><!-- #header-nav -->
+
+  <div id="menu-list" class="container-fluid hidden-xs"> <!-- stinga contenitrice -->
+	
+	<div id="menu-item"class="row, container-fluid, text-center, col-lg-2, col-md-2, col-sm-2"> <!-- blocco menu-item-->
+	 <p id="selector" > <a href="../snippets/health.html" ><h3>Home</h3></a> </p>
+	 	</div>  <!-- contiene titolo menu -->
+	 <div id="menu-item"class="row, container-fluid, text-center, col-lg-1, col-md-1, col-sm-1"> <!-- blocco menu-item-->
+	 <p> <a><span id="divider" class= "glyphicon glyphicon-grain"></span></a> </p>
+	 </div>
+	 
+		<div id="menu-item"class="row, container-fluid, text-center, col-lg-2, col-md-2, col-sm-2">
+	 <p id="selector"  ><a href="../snippets/classes.html"><h3>Blog</h3></a></p>
+	</div>  <!-- contiene titolo menu -->
+		 <div id="menu-item"class="row, container-fluid, text-center, col-lg-1, col-md-1, col-sm-1"> <!-- blocco menu-item-->
+	 <p> <a><span id="divider"  class= "glyphicon glyphicon-grain"></span></a> </p>
+	 </div>
+		<div id="menu-item"class="row, container-fluid, text-center, col-lg-2, col-md-2, col-sm-2">
+	 <p id="selector" ><a href="../snippets/blog.html"><h3>Calendar</h3></a></p>
+	</div>  <!-- contiene titolo menu -->
+		 <div id="menu-item"class="row, container-fluid, text-center, col-lg-1, col-md-1, col-sm-1"> <!-- blocco menu-item-->
+	 <p> <a><span id="divider"  class= "glyphicon glyphicon-grain"></span></a> </p>
+	 </div>
+		<div id="menu-item"class="row, container-fluid, text-center, col-lg-2, col-md-2, col-sm-2">
+	 <p id="selector" ><a href="../snippets/blog.html"><h3>Contacts</h3></a></p>
+	</div>  <!-- contiene titolo menu -->	
+ </div>
+
+</nav>
+
+
+
 
   </header>
   
-  <div id="main-page">
-  
-  </div>
-  
-	<div id="categories">
-	
-	</div>
+
  
-  <div id="main-content" class="container-fluid, text-center">
+  <div id="main-content" class="container-fluid">
   	
-  <div id="box-cerchio"class="row, container-fluid, text-center,"> <!-- contiene foto principale -->
+  <div id="box-cerchio"class="row, container-fluid"> <!-- contiene foto principale -->
   
   </div> 
   
-  <div id="row" class="container-fluid"> <!-- contiene foto -->
-	<div id="box"class="row, container-fluid, text-center">
+  <div id="row" class="container-fluid "> <!-- contiene foto -->
+	<div id="box"class="row, container-fluid, col-lg-4, col-md-4, col-sm-4, col-xs-4">
 	 <p id="descr1" > <a href="../snippets/health.html"> Health and Food </a></p>
 	</div>  <!-- contiene titolo menu -->
-		<div id="box"class="row, container-fluid, text-center">
+		<div id="box"class="row, container-fluid, col-lg-4, col-md-4, col-sm-4, col-xs-4">
 	 <p id="descr2"  ><a href="../snippets/classes.html"> Classes</a></p>
 	</div>  <!-- contiene titolo menu -->
-		<div id="box"class="row, container-fluid, text-center">
+		<div id="box"class="row, container-fluid, text-center, col-lg-4, col-md-4, col-sm-4, col-xs-4">
 	 <p id="descr3" ><a href="../snippets/blog.html">Blog</a></p>
 	</div>  <!-- contiene titolo menu -->
-	
-
-	
-		
+			
  </div>
    
   </div>
