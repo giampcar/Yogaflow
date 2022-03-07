@@ -102,7 +102,7 @@ h1 { /* Site name */
   #nav-list a{
 	font-family: 'Gentium Basic', serif;
   color: #DABDAB;
-  font-size: 2.7vw;
+  font-size: 4vw;
   text-shadow: .1vw .1vw .1vw #222;
   padding: 5px;
   }
@@ -150,10 +150,10 @@ hr{
 	margin: 0px;
 	padding: 0px;
 	background-color:#61122f;
-	height:.2px;
-	width: 90%;
+	height:1px;
+	width: 100%;
 	position: absolute;
-	left:5%;
+	left:0%;
 }
 
 #divider{
@@ -283,6 +283,12 @@ font-family: 'Gentium Basic', serif;
   text-decoration: none;
   	color:#61122f;
 }
+
+	  #descr1 a, #descr2 a, #descr3 a{
+ 	position:relative;
+	bottom:-100%;
+
+   }
 
 /* END HOME PAGE */
 
