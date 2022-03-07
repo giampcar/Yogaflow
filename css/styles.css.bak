@@ -9,29 +9,19 @@ body {
 #title {
 	font-family: 'Gentium Basic', serif;
   background-color: #FFFFF0;
-  width:90%;
+  width:70%;
   height: auto;
   margin: auto, 0, auto, 0;
   color: #61122f;
-  
-}
-
-#menu-list {
-font-family: 'Gentium Basic', serif;
-  width:100%;
-  height: auto;
-  color: #61122f;
-  margin:0;
-  padding:0;
+  padding:0px;
   }
-  
+
+ 
   
   #sections {
 
   background-color: #FFFFF0;
   width:100%;
-  height: 200px;
-  margin:4%;
   padding:0;
   height: 30vw;
  
@@ -44,73 +34,72 @@ h1 { /* Site name */
   color: #DABDAB;
   text-transform: uppercase;
   text-shadow: .2vw .2vw .2vw #222;
-  margin-top: 0;
+  margin-top: 5vw;
   margin-bottom: 0;
   -webkit-transition: all 0.5s ease-in-out;
    padding-top: 10px;
-   font-size: 6vw; /* 1vw = 1% of viewport width */
+   font-size: 7vw; /* 1vw = 1% of viewport width */
   }
   
   h2 { /* menu */
 	font-family: 'Gentium Basic', serif;
   color: #DABDAB;
-  font-size: 2.5vw;
-  text-shadow: .1vw .1vw .1vw #222;
-  margin: 0px;
-  padding:0px;
-  }
-  
-  
-    h3 { /* menu */
-	font-family: 'Gentium Basic', serif;
-  color: #DABDAB;
-  font-size: 2vw;
-  font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0;
-
-  }
-  
-    #instagram {
   font-size: 3vw;
-}
+  text-shadow: .1vw .1vw .1vw #222;
+  margin: 0px, 0px, 0px, 0px ;
+  padding:0px, 0px, 0px, 0px;
+  }
   
   
   
-  ul {
-    margin: 0;
-  padding: 0;
-}
-  li {
-  margin: 0px;
-  padding:0px;
-}
-
-  hr {
-width:100%;
-  margin: 0;
-  padding: 0;
+    #instagram, #facebook, #twitter {
+  font-size: 2vw;
+    color:#61122f;
 }
 
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+    #github,  #linkedin {
+  color:#FFFFF0;
 }
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
+  
+  
+
+#header-nav {
+	background-color:#FFFFF0;
+	margin:0;
+	padding:0;
+	
 }
+
 
  #collapsable-nav a{ /* Collapsed nav menu text */
-    font-size: 1vvw;
+    font-size: 1vw;
 	width:100%;
+
+	margin:0;
+	padding:0;
+  }
+  
+  #collapsable-nav a:hover{ /* Collapsed nav menu text */
+  	width:100%;
+	background-color:#61122f;
+  }
+  
+  #nav-list a{
+	font-family: 'Gentium Basic', serif;
+  color: #DABDAB;
+  font-size: 2.7vw;
+  text-shadow: .1vw .1vw .1vw #222;
+  padding: 5px;
   }
 
-#title span{
-  border: 0;
+  
+  
 
-  margin:0;
+#title p > span{
+  border: 0;
   padding:0;
+   font-size: 2vw;
         -webkit-transition: all 0.5s ease-in-out;
           transition: all 0.5s ease-out;
           transition-property: all;
@@ -118,11 +107,60 @@ width:100%;
           transition-timing-function: ease-out;
           transition-delay: 0s;
 		  text-align: center;
-	    font-size: 2vw; /* 1vw = 1% of viewport width */
- text-shadow: .1vw .1vw .1vw #222;	
+	     text-shadow: .1vw .1vw .1vw #222;	
+    height:1px;
 }
 
+
+.navbar-toggle {
+    position: relative;
+	bottom: 4%;
+    left: 1%;
+    background-color: #FFFFF0;
+    background-image: none;
+    border-radius: 10px;
+	padding: 2%;
+}
+
+.navbar-toggle:hover {
+ background-color: #61122f;
+}
+
+
+.navbar-toggle span{
+	height: 1px;
+}
+
+.navbar {
+	height: 1px;
+	margin-bottom:0px;
+	border:0px;
+}
+
+hr{
+	margin: 0px;
+	padding: 0px;
+	background-color:#61122f;
+	height:.2px;
+	width: 90%;
+	position: absolute;
+	left:5%;
+}
+
+#divider{
+	color: #61122f;
+	  font-size: 1.2vw;
+}
+
+  h3 { /* menu */
+	font-family: 'Gentium Basic', serif;
  
+  font-size: 2vw;
+  font-weight: bold;
+  margin: 0px;
+  margin: 0px;
+  }
+
 
 /* END HEADER */
 
@@ -140,8 +178,8 @@ width:100%;
  /* background: url('../images/main_large.jpeg') no-repeat;*/
     background:#FFFFF0;
 	padding: 2% 5% 2% 5%;
-	width:90%;
-	
+	width:70%;
+
 }
 
 #box-cerchio{
@@ -149,7 +187,7 @@ position:relative;
 background: url('../images/Strang.jpg') center;
 background-size: cover;
 width:100%;
-height: 50vw;
+height: 30vw;
 border-radius: 10%;
 margin-bottom:10%;
 }
@@ -161,11 +199,11 @@ margin-bottom:10%;
  	position:relative;
 	 background: url('../images/health-food.jpeg') no-repeat center;
  background-size: cover;
-      width:20vw;
-      height: 20vw;
+       width:16vw;
+      height: 15vw;
        border-radius: 10% 30% 10% 30%;
 	margin: .1vw;
-	font-size: 2.5vw; /* 1vw = 1% of viewport width */
+	font-size: 2vw; /* 1vw = 1% of viewport width */
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #ffe4c4;
 
@@ -174,12 +212,13 @@ margin-bottom:10%;
    #descr2 {
 	position:relative;
 	 background: url('../images/Classes.jpeg') no-repeat center;
+	  opacity:0.2;
  background-size: cover;
-      width:20vw;
-      height: 20vw;
+      width:16vw;
+      height: 15vw;
       border-radius: 10% 30% 10% 30%;
 		margin: .1vw;
-		font-size: 2.5vw; /* 1vw = 1% of viewport width */
+font-size: 2vw; /* 1vw = 1% of viewport width */
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #ffe4c4;
 	
@@ -189,17 +228,15 @@ margin-bottom:10%;
 	position:relative;
 	 background: url('../images/blog.jpeg') no-repeat center;
  background-size: cover;
-      width:20vw;
-      height: 20vw;
+      width:16vw;
+      height: 15vw;
       border-radius: 10% 30% 10% 30%;
 	margin: .1vw;
-	font-size: 2.5vw; /* 1vw = 1% of viewport width */
+	font-size: 2vw; /* 1vw = 1% of viewport width */
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #ffe4c4;
 }
    
-  
-
 
    
     #descr1:hover, #descr1:focus, #descr2:hover, #descr2:focus,  #descr3:hover, #descr3:focus {
@@ -212,8 +249,6 @@ margin-bottom:10%;
 }
 
 	
-	
-	
 
 
    #menu-list p {
@@ -221,17 +256,24 @@ margin-bottom:10%;
 	padding:0;
   }
 
-     #menu-list{
-    margin-top:3vw;
-	padding:2vw;
-	background:
-
+#menu-list {
+font-family: 'Gentium Basic', serif;
+  width:90%;
+  position:relative;
+  left:10%;
+ /* background: #FFF0F5; */
+  margin:0;
+  padding:10px;
   }
   
+  
+	 a {
+  	color:#222;
+}
+
 	 a:hover, a:focus {
   text-decoration: none;
-  	color:red;
-	position:relative;
+  	color:#61122f;
 }
 
 /* END HOME PAGE */
