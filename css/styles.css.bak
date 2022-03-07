@@ -68,7 +68,7 @@ h1 { /* Site name */
   
   
     #instagram, #facebook, #twitter {
-  font-size: 15px;
+  font-size: 2vw;
     color:#61122f;
 	margin-left:10px;
 }
@@ -296,7 +296,7 @@ svg {
   position: relative;
   top: 0;
   left: 0;
-  background-color: #FFFFF0;
+
 }
 .container {
   display: inline-block;
@@ -324,6 +324,7 @@ svg {
 	
 	    #github,  #linkedin {
   color:#FFFFF0;
+    font-size: 2vw;
 }
 
 /* END FOOTER */

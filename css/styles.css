@@ -68,7 +68,7 @@ h1 { /* Site name */
   
   
     #instagram, #facebook, #twitter {
-  font-size: 15px;
+  font-size: 2vw;
     color:#61122f;
 	margin-left:10px;
 }
@@ -304,7 +304,6 @@ svg {
   margin:0;
   padding:0;
    width: 90%;
-  padding-bottom: 100%;
   vertical-align: middle;
   overflow: hidden;
 }
@@ -324,6 +323,7 @@ svg {
 	
 	    #github,  #linkedin {
   color:#FFFFF0;
+    font-size: 2vw;
 }
 
 /* END FOOTER */
