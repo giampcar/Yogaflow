@@ -28,7 +28,7 @@
               <span>- Manuela Pokrivac -</span>
             </p>
 			<p>
-			<a id= "facebook" href="https://www.instagram.com/mariposa.yoga/" target="_blank" class="fa fa-facebook-square"></a>
+			<a id= "facebook" href="https://www.facebook.com/mariposayogawithlinda/" target="_blank" class="fa fa-facebook-square"></a>
 			<a id= "instagram" href="https://www.instagram.com/mariposa.yoga/" target="_blank" class="fa fa-instagram"></a>
 			<a id= "twitter" href="https://www.instagram.com/mariposa.yoga/" target="_blank" class="fa fa-twitter"></a>
 						</p>
@@ -119,6 +119,13 @@
  </div>
    
   </div>
+
+
+<div class="container">
+  <svg viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
+    <path d="M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z" style="stroke: none; fill:red;"></path>
+  </svg>
+</div>
 
   
 
