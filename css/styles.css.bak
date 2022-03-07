@@ -33,17 +33,33 @@ h1 { /* Site name */
   color: #DABDAB;
   text-transform: uppercase;
   text-shadow: .2vw .2vw .2vw #222;
-  margin-top: 5vw;
+  margin-top: 3vw;
   margin-bottom: 0;
   -webkit-transition: all 0.5s ease-in-out;
    padding-top: 10px;
-   font-size: 7vw; /* 1vw = 1% of viewport width */
+   font-size: 8vw; /* 1vw = 1% of viewport width */
   }
+  
+  #title p > span{
+  border: 0;
+  padding:0;
+   font-size: 3vw;
+        -webkit-transition: all 0.5s ease-in-out;
+          transition: all 0.5s ease-out;
+          transition-property: all;
+          transition-duration: 0.5s;
+          transition-timing-function: ease-out;
+          transition-delay: 0s;
+		  text-align: center;
+	     text-shadow: .1vw .1vw .1vw #222;	
+    height:1px;
+}
+
   
   h2 { /* menu */
 	font-family: 'Gentium Basic', serif;
   color: #DABDAB;
-  font-size: 3vw;
+  font-size: 5vw;
   text-shadow: .1vw .1vw .1vw #222;
   margin: 0px, 0px, 0px, 0px ;
   padding:0px, 0px, 0px, 0px;
@@ -52,14 +68,13 @@ h1 { /* Site name */
   
   
     #instagram, #facebook, #twitter {
-  font-size: 2vw;
+  font-size: 15px;
     color:#61122f;
+	margin-left:10px;
 }
 
 
-    #github,  #linkedin {
-  color:#FFFFF0;
-}
+
   
   
 
@@ -95,20 +110,6 @@ h1 { /* Site name */
   
   
 
-#title p > span{
-  border: 0;
-  padding:0;
-   font-size: 2vw;
-        -webkit-transition: all 0.5s ease-in-out;
-          transition: all 0.5s ease-out;
-          transition-property: all;
-          transition-duration: 0.5s;
-          transition-timing-function: ease-out;
-          transition-delay: 0s;
-		  text-align: center;
-	     text-shadow: .1vw .1vw .1vw #222;	
-    height:1px;
-}
 
 
 .navbar-toggle {
@@ -119,6 +120,16 @@ h1 { /* Site name */
     background-image: none;
     border-radius: 10px;
 	padding: 2%;
+}
+
+.navbar-toggle .icon-bar {
+  display: list;
+  width: 20px;
+  height: 1px;
+  border-radius: 1px;
+  margin-bottom:2px;
+  padding:0;
+  border:0;
 }
 
 .navbar-toggle:hover {
@@ -202,7 +213,7 @@ margin-bottom:10%;
       height: 15vw;
        border-radius: 10% 30% 10% 30%;
 	margin: .1vw;
-	font-size: 2vw; /* 1vw = 1% of viewport width */
+	font-size: 3vw; /* 1vw = 1% of viewport width */
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #ffe4c4;
 
@@ -216,7 +227,7 @@ margin-bottom:10%;
       height: 15vw;
       border-radius: 10% 30% 10% 30%;
 		margin: .1vw;
-font-size: 2vw; /* 1vw = 1% of viewport width */
+font-size: 3vw; /* 1vw = 1% of viewport width */
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #ffe4c4;
 	
@@ -230,7 +241,7 @@ font-size: 2vw; /* 1vw = 1% of viewport width */
       height: 15vw;
       border-radius: 10% 30% 10% 30%;
 	margin: .1vw;
-	font-size: 2vw; /* 1vw = 1% of viewport width */
+	font-size: 3vw; /* 1vw = 1% of viewport width */
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #ffe4c4;
 }
@@ -285,6 +296,10 @@ font-family: 'Gentium Basic', serif;
   font-size: 2vw;
   color: #FFFFF0;
 	}
+	
+	    #github,  #linkedin {
+  color:#FFFFF0;
+}
 
 /* END FOOTER */
 
