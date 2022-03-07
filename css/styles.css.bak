@@ -1,6 +1,5 @@
 body {
-  font-size: 16px;
-  background-color:  #61122f;
+    background-color:  #61122f;
 	font-family: 'Gentium Basic', serif;
   text-align: center;
 }
@@ -9,7 +8,7 @@ body {
 #title {
 	font-family: 'Gentium Basic', serif;
   background-color: #FFFFF0;
-  width:70%;
+  width:90%;
   height: auto;
   margin: auto, 0, auto, 0;
   color: #61122f;
@@ -178,7 +177,7 @@ hr{
  /* background: url('../images/main_large.jpeg') no-repeat;*/
     background:#FFFFF0;
 	padding: 2% 5% 2% 5%;
-	width:70%;
+  width:90%;
 
 }
 
@@ -199,7 +198,7 @@ margin-bottom:10%;
  	position:relative;
 	 background: url('../images/health-food.jpeg') no-repeat center;
  background-size: cover;
-       width:16vw;
+       width:20vw;
       height: 15vw;
        border-radius: 10% 30% 10% 30%;
 	margin: .1vw;
@@ -212,9 +211,8 @@ margin-bottom:10%;
    #descr2 {
 	position:relative;
 	 background: url('../images/Classes.jpeg') no-repeat center;
-	  opacity:0.2;
  background-size: cover;
-      width:16vw;
+       width:20vw;
       height: 15vw;
       border-radius: 10% 30% 10% 30%;
 		margin: .1vw;
@@ -228,7 +226,7 @@ font-size: 2vw; /* 1vw = 1% of viewport width */
 	position:relative;
 	 background: url('../images/blog.jpeg') no-repeat center;
  background-size: cover;
-      width:16vw;
+       width:20vw;
       height: 15vw;
       border-radius: 10% 30% 10% 30%;
 	margin: .1vw;
