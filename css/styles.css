@@ -6,7 +6,10 @@ body {
 
 /** HEADER **/
 
+/** ################################**/
+/** ################################**/
 /** Button language select **/
+/** ################################**/
 .button {
 	position:absolute;
 	left:85%;
@@ -21,7 +24,7 @@ body {
    width: 7vw;
   height: 3vw;
   transition: all 0.5s;
-  margin: 5px;
+  margin: 1vw;
   box-shadow: 5px 5px 10px 0.1px LightSlateGrey;
 }
 
@@ -51,19 +54,20 @@ body {
 }
 
 /** Button language select **/
-
+/** ################################**/
+/** ################################**/
+/** ################################**/
 
 #title {
 	font-family: 'Gentium Basic', serif;
-
   background-color: LavenderBlush;
   width:90%;
-  height: auto;
+  height:auto;
   margin: auto, 0, auto, 0;
   color: #61122f;
   padding:0px;
   	box-shadow: 5px 5px 10px 0.1px LightSlateGrey;
-
+ border-radius: 0px 0px 2% 2%;
   }
 
  
@@ -118,10 +122,12 @@ h1 { /* Site name */
   
   
     #instagram, #facebook, #twitter {
-  font-size: 2vw;
+  font-size: 3vw;
     color:#61122f;
-	margin-left:10px;
+	margin-left:1vw;
+	margin-bottom:0.1vw;
 }
+
 
 
 
@@ -129,7 +135,7 @@ h1 { /* Site name */
 	background-color:LavenderBlush;
 	margin:0;
 	padding:0;
-	
+
 }
 
 
@@ -154,30 +160,36 @@ h1 { /* Site name */
   padding: 5px;
   }
 
-  
-  
 
 
-
+/* posizione bottone menu tendina */
 .navbar-toggle {
     position: relative;
-	bottom: 4%;
-    left: 1%;
+	bottom:10vw;
+	left:0;
     background-color: LavenderBlush;
     background-image: none;
     border-radius: 10px;
-	padding: 2%;
+	padding: 0.1vw;
+	margin: 0.1vw;
 }
 
+
+/* Froma bottone menu tendina */
 .navbar-toggle .icon-bar {
   display: list;
-  width: 20px;
-  height: 1px;
+  width: 5vw;
+  height: .1vw;
   border-radius: 1px;
   padding:0;
-  border:0;
+  border:0.1vw;
+  margin:1vw;
 }
 
+  #contenitore_button{
+	position: relative;
+	bottom:-8vw;
+}
 
 
 
@@ -186,18 +198,22 @@ h1 { /* Site name */
 }
 
 .navbar {
-	height: 1px;
 	margin-bottom:0px;
 	border:0px;
 }
 
+.navbar-toggle:hover, .navbar-toggle:focus {
+ background-color: LavenderBlush;
+}
+
+
 hr{
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	background-color:Lavender;
 	height:2px;
 	width: 100%;
-	position: absolute;
+	position: relative;
 	left:0%;
 }
 
@@ -234,9 +250,6 @@ ul{
 
 /* HOME PAGE */
 
-.navbar-toggle:hover, .navbar-toggle:focus {
- background-color: LavenderBlush;
-}
 
 	
 #main-content{
@@ -452,6 +465,8 @@ padding:0;
     text-shadow: .2vw .2vw .2vw black;
   }
   
+  
+
   
   /* evidenzia posizione menu */ 
 
