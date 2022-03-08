@@ -84,7 +84,7 @@
 	 <p> <a><span id="divider" class= "fa fa-circle"></span></a> </p>
 	 </div>
 		<div id="menu-item"class="row, container-fluid, text-center, col-lg-2, col-md-2, col-sm-2">
-	 <p ><a href="../snippets/Contacts.html"><h3>Contacts</h3></a></p>
+	 <p" ><a href="../snippets/Contacts.html"><h3>Contacts</h3></a></p>
 	</div>  <!-- contiene titolo menu -->	
  </div>
 

@@ -30,8 +30,7 @@
 			<p>
 			<a id= "facebook" href="https://www.facebook.com/mariposayogawithlinda/" target="_blank" class="fa fa-facebook-square"></a>
 			<a id= "instagram" href="https://www.instagram.com/mariposa.yoga/" target="_blank" class="fa fa-instagram"></a>
-			<a id= "twitter" href="https://www.instagram.com/mariposa.yoga/" target="_blank" class="fa fa-twitter"></a>
-						</p>
+			</p>
 	
 	
 	
@@ -49,13 +48,13 @@
 	    <div id="collapsable-nav" class="collapse navbar-collapse, .d-{sm,md,lg,xl}-block ">
 		<ul id="nav-list" class="nav navbar-nav navbar-right">
 		    <hr></hr>
-		   <li><a href="index.html">Home</a></li>
+		   <li><a id="Home" href="../snippets/Home.html">Home</a></li>
 		   <hr></hr>
-			<li><a href="index.html">Blog</a></li>
+			<li><a id="Blog"  href="../snippets/Blog.html">Blog</a></li>
 			 <hr></hr>
-			<li><a href="index.html">Calendar</a></li>
+			<li><a  id="Calendar" href="../snippets/Calendar.html">Calendar</a></li>
 			 <hr></hr>
-			<li><a href="index.html">Contact</a></li>
+			<li><a  id="Contacts" href="../snippets/Contacts.html">Contact</a></li>
 			 <hr></hr>
 		</ul>
 		
@@ -67,26 +66,26 @@
   <div id="menu-list" class="container-fluid hidden-xs"> <!-- stinga contenitrice -->
 	
 	<div id="menu-item"class="row, container-fluid, text-center, col-lg-2, col-md-2, col-sm-2"> <!-- blocco menu-item-->
-	 <p id="selector" > <a href="../snippets/health.html" ><h3>Home</h3></a> </p>
+	 <p id="selector-home" > <a href="../snippets/Home.html" ><h3>Home</h3></a> </p>
 	 	</div>  <!-- contiene titolo menu -->
 	 <div id="menu-item"class="row, container-fluid, text-center, col-lg-1, col-md-1, col-sm-1"> <!-- blocco menu-item-->
 	 <p> <a><span id="divider" class= "fa fa-circle"></span></a> </p>
 	 </div>
 	 
 		<div id="menu-item"class="row, container-fluid, text-center, col-lg-2, col-md-2, col-sm-2">
-	 <p id="selector"  ><a href="../snippets/classes.html"><h3>Blog</h3></a></p>
+	 <p id="selector-blog"  ><a href="../snippets/Blog.html"><h3>Blog</h3></a></p>
 	</div>  <!-- contiene titolo menu -->
 		 <div id="menu-item"class="row, container-fluid, text-center, col-lg-1, col-md-1, col-sm-1"> <!-- blocco menu-item-->
 	 <p> <a><span id="divider" class= "fa fa-circle"></span></a> </p>
 	 </div>
 		<div id="menu-item"class="row, container-fluid, text-center, col-lg-2, col-md-2, col-sm-2">
-	 <p id="selector" ><a href="../snippets/blog.html"><h3>Calendar</h3></a></p>
+	 <p id="selector-calendar" ><a href="../snippets/Calendar.html"><h3>Calendar</h3></a></p>
 	</div>  <!-- contiene titolo menu -->
 		 <div id="menu-item"class="row, container-fluid, text-center, col-lg-1, col-md-1, col-sm-1"> <!-- blocco menu-item-->
 	 <p> <a><span id="divider" class= "fa fa-circle"></span></a> </p>
 	 </div>
 		<div id="menu-item"class="row, container-fluid, text-center, col-lg-2, col-md-2, col-sm-2">
-	 <p id="selector" ><a href="../snippets/blog.html"><h3>Contacts</h3></a></p>
+	 <p id="selector-contacts" ><a href="../snippets/Contacts.html"><h3>Contacts</h3></a></p>
 	</div>  <!-- contiene titolo menu -->	
  </div>
 
@@ -96,16 +95,20 @@
 
 
   </header>
-  
+
 
  
   <div id="main-content" class="container-fluid ">
   	
-  <div id="box-cerchio"class="row, container-fluid"> <!-- contiene foto principale -->
+ 
+    <div id="container-shape" class="container"> <!-- contiene foto principale -->
+  <svg viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
+    <path d="M0,100 C170,150 100,50 500,100 L500,00 L0,0 Z" style="stroke: none; fill:LavenderBlush;"></path>
+  </svg>
+</div>
   
-  </div> 
   
-  <div id="sections" class="container-fluid"> <!-- contiene foto -->
+  <div id="sections" class="container-fluid, center"> <!-- contiene foto -->
 	<div id="box"class="row, col-lg-4, col-md-4, col-sm-4, col-xs-4">
 	 <p id="descr1" > <a href="../snippets/health.html"> Health and Food </a></p>
 	</div>  <!-- contiene titolo menu -->
@@ -119,13 +122,15 @@
  </div>
    
   </div>
-
-
-<div class="container">
-  <svg viewBox="0 0 700 500" preserveAspectRatio="xMinYMin meet">
-    <path d="M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z" style="stroke: none; fill:#FFFFF0;"></path>
+  
+    <div id="container-shape-end" class=" container-shape-end">
+  <svg viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
+    <path d="M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z" style="stroke: none; fill:LavenderBlush;"></path>
   </svg>
 </div>
+
+
+
 
   
 
