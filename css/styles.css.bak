@@ -368,20 +368,25 @@ padding:0;
 /* evidenzia posizione menu */ 
   
    #selector-home  {
-	  color:red;
-	  background-color:black;
+	  color: #DABDAB;
+    text-shadow: .2vw .2vw .2vw #222;
   }
      #selector-blog  {
-	  color:red;
-	  background-color:black;
+	  color: #DABDAB;
+    text-shadow: .2vw .2vw .2vw #222;
   }
      #selector-calendar  {
-	  color:red;
-	  background-color:black;
+	  color: #DABDAB;
+    text-shadow: .2vw .2vw .2vw #222;
   }
      #selector-contacts  {
-	  color:red;
-	  background-color:black;
+	  color: #DABDAB;
+    text-shadow: .2vw .2vw .2vw #222;
+  }
+  
+       #selector-contacts a {
+	  color: #DABDAB;
+    text-shadow: .2vw .2vw .2vw black;
   }
   
   

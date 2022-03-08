@@ -384,6 +384,26 @@ padding:0;
     text-shadow: .2vw .2vw .2vw #222;
   }
   
+         #selector-home a {
+	  color: #DABDAB;
+    text-shadow: .2vw .2vw .2vw black;
+  }
+  
+         #selector-blog a {
+	  color: #DABDAB;
+    text-shadow: .2vw .2vw .2vw black;
+  }
+  
+         #selector-calendar a {
+	  color: #DABDAB;
+    text-shadow: .2vw .2vw .2vw black;
+  }
+  
+       #selector-contacts a {
+	  color: #DABDAB;
+    text-shadow: .2vw .2vw .2vw black;
+  }
+  
   
   /* evidenzia posizione menu */ 
 
