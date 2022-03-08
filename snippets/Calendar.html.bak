@@ -21,6 +21,7 @@
   
 <body class="col-lg-6, col-md-2, col-sm-2, col-xs-12">
   <header>
+  	<nav id="header-nav" class=" navbar-default ">
     <nav id="title" class="navbar navbar-default container-fluid">
 		  <button class="button" ><span>DE</span></button>
             <a href="..\index.html"><h1>Yoga Flow</h1></a>
@@ -38,6 +39,23 @@
             <span class="icon-bar"></span>
           </button>
         </div>
+		
+			    <div id="collapsable-nav" class="collapse navbar-collapse, visible-xs, .d-{sm,md,lg,xl}-block ">
+		<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs ">
+		    <hr></hr>
+		   <li ><a id="Home" href="./Home.html">Home</a></li>
+		   <hr></hr>
+			<li><a id="Blog"  href="./Blog.html">Blog</a></li>
+			 <hr></hr>
+			<li id="selector-calendar"><a  id="Calendar" href="./Calendar.html">Calendar</a></li>
+			 <hr></hr>
+			<li><a  id="Contacts" href="./Contacts.html">Contacts</a></li>
+			 <hr></hr>
+		</ul>
+		
+
+	</div><!-- .collapse .navbar-collapse -->
+</nav><!-- #header-nav -->
 	
   <div id="menu-list" class="container-fluid hidden-xs"> <!-- stinga contenitrice -->
 	
@@ -66,26 +84,11 @@
  </div>
 
 </nav>
-	<nav id="header-nav" class=" navbar-default ">
+
 
 	
 	
-	    <div id="collapsable-nav" class="collapse navbar-collapse, visible-xs, .d-{sm,md,lg,xl}-block ">
-		<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs ">
-		    <hr></hr>
-		   <li ><a id="Home" href="./Home.html">Home</a></li>
-		   <hr></hr>
-			<li><a id="Blog"  href="./Blog.html">Blog</a></li>
-			 <hr></hr>
-			<li id="selector-calendar"><a  id="Calendar" href="./Calendar.html">Calendar</a></li>
-			 <hr></hr>
-			<li><a  id="Contacts" href="./Contacts.html">Contacts</a></li>
-			 <hr></hr>
-		</ul>
-		
 
-	</div><!-- .collapse .navbar-collapse -->
-</nav><!-- #header-nav -->
 
 
 
