@@ -27,7 +27,7 @@
   
   
     <nav id="title" class="navbar navbar-default container-fluid">
-	  <button class="button" ><span>Hover </span></button>
+	  <button class="button" ><span>DE</span></button>
             <a href="index.html"><h1>Yoga Flow</h1></a>
             <p>
               <span>- Manuela Pokrivac -</span>
@@ -107,7 +107,7 @@
  
     <div id="container-shape" class="container"> <!-- contiene foto principale -->
   <svg viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
-    <path d="M0,100 C170,150 100,50 500,100 L500,00 L0,0 Z" style="stroke: none; fill:LavenderBlush;"></path>
+    <path d="M0,100 C170,150 100,50 500,100 L500,00 L0,0 Z" style="stroke: blue; fill:LavenderBlush;"></path>
   </svg>
 </div>
   
