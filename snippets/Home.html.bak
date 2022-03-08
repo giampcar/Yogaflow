@@ -45,16 +45,16 @@
         </div>
 	
 	
-	    <div id="collapsable-nav" class="collapse navbar-collapse, .d-{sm,md,lg,xl}-block ">
+	    <div id="collapsable-nav" class="collapse navbar-collapse, visible-xs ">
 		<ul id="nav-list" class="nav navbar-nav navbar-right">
 		    <hr></hr>
 		   <li id="selector-home"><a id="Home" href="./Home.html">Home</a></li>
 		   <hr></hr>
-			<li><a id="Blog"  href=".Blog.html">Blog</a></li>
+			<li><a id="Blog"  href="./Blog.html">Blog</a></li>
 			 <hr></hr>
-			<li><a  id="Calendar" href=".Calendar.html">Calendar</a></li>
+			<li><a  id="Calendar" href="./Calendar.html">Calendar</a></li>
 			 <hr></hr>
-			<li><a  id="Contacts" href="./Contacts.html">Contact</a></li>
+			<li><a  id="Contacts" href="./Contacts.html">Contacts</a></li>
 			 <hr></hr>
 		</ul>
 		

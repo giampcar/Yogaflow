@@ -45,8 +45,8 @@
         </div>
 	
 	
-	    <div id="collapsable-nav" class="collapse navbar-collapse, .d-{sm,md,lg,xl}-block ">
-		<ul id="nav-list" class="nav navbar-nav navbar-right">
+	    <div id="collapsable-nav" class="collapse navbar-collapse, visible-xs, .d-{sm,md,lg,xl}-block ">
+		<ul id="nav-list" class="nav navbar-nav navbar-right ">
 		    <hr></hr>
 		   <li><a id="Home" href="../snippets/Home.html">Home</a></li>
 		   <hr></hr>
@@ -65,7 +65,7 @@
   <div id="menu-list" class="container-fluid hidden-xs"> <!-- stinga contenitrice -->
 	
 	<div id="menu-item"class="row, container-fluid, text-center, col-lg-2, col-md-2, col-sm-2"> <!-- blocco menu-item-->
-	 <p> <a  href="../Home.html" ><h3>Home</h3></a> </p>
+	 <p> <a  href="./Home.html" ><h3>Home</h3></a> </p>
 	 	</div>  <!-- contiene titolo menu -->
 	 <div id="menu-item"class="row, container-fluid, text-center, col-lg-1, col-md-1, col-sm-1"> <!-- blocco menu-item-->
 	 <p> <a><span id="divider" class= "fa fa-circle"></span></a> </p>
