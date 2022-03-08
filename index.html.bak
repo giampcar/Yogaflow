@@ -22,7 +22,12 @@
   
 <body class="col-lg-6, col-md-2, col-sm-2, col-xs-12">
   <header>
+
+
+  
+  
     <nav id="title" class="navbar navbar-default container-fluid">
+	  <button class="button" ><span>Hover </span></button>
             <a href="index.html"><h1>Yoga Flow</h1></a>
             <p>
               <span>- Manuela Pokrivac -</span>
@@ -45,8 +50,8 @@
         </div>
 	
 	
-	    <div id="collapsable-nav" class="collapse navbar-collapse,  visible-xs  ">
-		<ul id="nav-list" class="nav navbar-nav navbar-right">
+	    <div id="collapsable-nav" class="collapse navbar-collapse, visible-xs, .d-{sm,md,lg,xl}-block ">
+		<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs ">
 		    <hr></hr>
 		   <li><a id="Home" href="../Yogaflow/snippets/Home.html">Home</a></li>
 		   <hr></hr>
@@ -139,6 +144,13 @@
 			  <a id= "linkedin" href="https://www.linkedin.com/in/giampaolocarducci/" target="_blank" class="fa fa-linkedin-square"></a>
        		  <a id= "github" href="https://github.com/giampcar" target="_blank" class="fa fa-github-square"></a>
 			</p>
+
+  <!-- PROVA FLOATING OBJECT 		
+	<div id="prova">
+	<a id= "github" href="https://github.com/giampcar" target="_blank" class="fa fa-github-square"></a>
+	</div>
+		-->		
+			
   </footer>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->

@@ -5,6 +5,54 @@ body {
 }
 
 /** HEADER **/
+
+/** Button language select **/
+.button {
+	position:absolute;
+	left:85%;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #DABDAB;
+  border: none;
+  color: LightSlateGrey;
+  text-align: center;
+  font-size: 2vw;
+  font-weight:700;
+   width: 7vw;
+  height: 3vw;
+  transition: all 0.5s;
+  margin: 5px;
+  box-shadow: 5px 5px 10px 0.1px LightSlateGrey;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -10px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/** Button language select **/
+
+
 #title {
 	font-family: 'Gentium Basic', serif;
 
@@ -423,6 +471,23 @@ padding:0;
   color:#61122f;
     font-size: 2vw;
 }
+
+/* PROVA FLOATING OBJECT
+@keyframes example {
+  0%   {background-color:red; left:20px; top:0px;}
+  25%  {background-color:yellow; left:90%; top:0px;}
+  50%  {background-color:blue; left:90%; top:20px;}
+  75%  {background-color:green; left:20px; top:20px;}
+  100% {background-color:red; left:20px; top:0px;}
+}
+
+#prova {
+  width: 5vw;
+  height: 5vw;
+  position: relative;
+  animation: example 5s linear 1s infinite alternate;
+}*/
+
 
 /* END FOOTER */
 
