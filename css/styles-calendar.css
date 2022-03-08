@@ -453,10 +453,8 @@ padding:0;
   }
   
   
-  /* evidenzia posizione menu */ 
-
-/* END HOME PAGE */
-
+  
+  
 /* FOOTER */
 
 	#footer {
@@ -472,24 +470,23 @@ padding:0;
     font-size: 2vw;
 }
 
-/* PROVA FLOATING OBJECT
-@keyframes example {
-  0%   {background-color:red; left:20px; top:0px;}
-  25%  {background-color:yellow; left:90%; top:0px;}
-  50%  {background-color:blue; left:90%; top:20px;}
-  75%  {background-color:green; left:20px; top:20px;}
-  100% {background-color:red; left:20px; top:0px;}
-}
-
-#prova {
-  width: 5vw;
-  height: 5vw;
-  position: relative;
-  animation: example 5s linear 1s infinite alternate;
-}*/
-
 
 /* END FOOTER */
+
+
+
+/* ################################ */
+/* ################################ */
+/* ################################ */
+  /* CALENDAR */ 
+/* ################################ */
+/* ################################ */
+/* ################################ */
+  
+
+  
+  
+
 
 
 

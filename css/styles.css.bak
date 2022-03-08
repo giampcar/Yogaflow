@@ -17,6 +17,7 @@ body {
   color: LightSlateGrey;
   text-align: center;
   font-size: 2vw;
+  font-weight:700;
    width: 7vw;
   height: 3vw;
   transition: all 0.5s;
@@ -36,7 +37,7 @@ body {
   position: absolute;
   opacity: 0;
   top: 0;
-  right: -10px;
+  right: -2vw;
   transition: 0.5s;
 }
 
