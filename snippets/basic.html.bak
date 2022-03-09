@@ -32,10 +32,7 @@
 			<a id= "facebook" href="https://www.facebook.com/mariposayogawithlinda/" target="_blank" class="fa fa-facebook-square"></a>
 			<a id= "instagram" href="https://www.instagram.com/mariposa.yoga/" target="_blank" class="fa fa-instagram"></a>
 			</p>
-	
-	
-	
-	
+		
 	<nav id="header-nav" class=" navbar-default ">
 	<div id="contenitore_button" class="container-fluid">
 	<button type="button" class="navbar-toggle collapsed  visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
@@ -101,10 +98,10 @@
   <div id="main-content" class="container-fluid ">
   	
  
-    <div id="container-shape" class="container"> <!-- contiene foto principale -->
+    <div id="container-shape" class="container"> <!-- contiene foto principale --><!-- 
   <svg viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
     <path d="M0,100 C170,150 100,50 500,100 L500,00 L0,0 Z" style="stroke: none; fill:LavenderBlush;"></path>
-  </svg>
+  </svg> -->
 </div>
   
   
@@ -124,8 +121,8 @@
   </div>
   
     <div id="container-shape-end" class=" container-shape-end">
-  <svg viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
-    <path d="M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z" style="stroke: none; fill:LavenderBlush;"></path>
+  <svg>
+    <path d="M0,50 C400,100 200,0 5000,100 L5000,00 L0,0 Z""></path>
   </svg>
 </div>
 
