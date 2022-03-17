@@ -55,7 +55,7 @@ font-family: 'Bilbo', cursive;
 }
 
 
-#button_switch, button{
+#button_switch{
 	position:absolute;
 	left:1%;
   display: inline-block;
@@ -69,6 +69,13 @@ font-family: 'Bilbo', cursive;
   height: auto;
   margin: 1px;
   box-shadow: 0.5px 0.5px 1px 1px LightSlateGrey;
+}
+
+#menu-button{
+	  color: Ivory;
+}
+#menu-button:hover, #menu-button:focus, #menu-button:active {
+	  color: red;
 }
 
 
@@ -91,6 +98,16 @@ font-family: 'Bilbo', cursive;
   color: #61122f;
   padding:0px;
   }
+#title-xs {
+	font-family: 'Gentium Basic', serif;
+  background-color: Ivory;
+  width:300px;
+  height:auto;
+  margin: auto, 0, auto, 0;
+  color: #61122f;
+  padding:0px;
+  }
+
 
  
   
@@ -123,7 +140,13 @@ font-family: 'Bilbo', cursive;
 
     text-shadow: .2px .2px .2px #222;
 }
+  #title-xs p > span{ /* Manuela Pok */
+  border: 0;
+  padding:0;
+   font-size: 0.6em;
 
+    text-shadow: .2px .2px .2px #222;
+}
   
   h2 { /* menu bars - from buttonlist */
 font-family: 'Bilbo', cursive;
@@ -149,6 +172,9 @@ font-family: 'Bilbo', cursive;
 	background-color:Ivory;
 	margin:0;
 	padding:0;
+	width:300px;
+  display: inline-block;
+  position: relative;
 
 }
 
@@ -189,28 +215,22 @@ font-family: 'Bilbo', cursive;
 
 /* Froma bottone menu tendina */
 .navbar-toggle .icon-bar {
-  display: list;
-  width: 10px;
-  height: 1px;
-  padding:0;
-  border:1px;
-  margin:1px;
+
 }
 
   #contenitore_button{
 	position: relative;
-
+	width:300px;
 }
 
 
 
 .navbar-toggle span{
-	height: 1px;
+
 }
 
 .navbar {
 	margin-bottom:0px;
-	border:0px;
 }
 
 .navbar-toggle:hover, .navbar-toggle:focus {
@@ -221,11 +241,12 @@ font-family: 'Bilbo', cursive;
 hr{
 	margin: 0;
 	padding: 0;
-	background-color:LavenderBlush;
+	background-color:#DABDAB;
 	height:2px;
-	width: 100%;
+	width: 300px;
 	position: relative;
-	left:0%;
+  display: inline-block;
+  position: relative;
 }
 
 
@@ -262,6 +283,14 @@ font-family: 'Bilbo', cursive;
     background:Ivory;
 	padding: 2% 5% 2% 5%;
 	width:1200px;
+}
+
+#main-content-xs{
+
+ /* background: url('../images/main_large.jpeg') no-repeat;*/
+    background:Ivory;
+	padding: 2% 5% 2% 5%;
+	width:300px;
 }
 
 #box-cerchio{
@@ -338,6 +367,56 @@ ul {
    margin-left:10px;
    text-shadow: 1px 1px 3px  white;
    }
+   
+   
+   
+   
+   #sections-xs {
+	position:relative;
+
+   
+}
+   	  #descr1-xs {
+
+ 	position:relative;
+	 background: url('../images/health-food.jpg') no-repeat center;
+	background-size: cover;
+     width:150px;
+     height: 100px;
+    padding:0 50% 0 50%;
+
+   }
+   
+   #descr2-xs  {
+	position:relative;
+	 background: url('../images/Classes.jpg') no-repeat center;
+  background-size: cover;
+     width:150px;
+     height: 100px;
+    padding:0 50% 0 50%;
+   }
+   
+  
+   #descr3-xs  {
+	position:relative;
+	 background: url('../images/mindset.jpg') no-repeat center;
+  background-size: cover;
+     width:150px;
+     height: 100px;
+	     padding:0 50% 0 50%;
+}
+   
+
+   /*sections text and desctiption*/
+	  #descr1-xs  a, #descr2-xs  a, #descr3-xs a{
+ 	position:absolute;
+	color: black;
+	font-size: 2em; /* 1vw = 1% of viewport width */
+   text-shadow: 1px 1px 3px  white;
+   padding:0;
+   left:5%;
+   }
+   
    /*end sections text and desctiption*/
 
 
@@ -362,9 +441,6 @@ font-family: 'Bilbo', cursive;
   }
   
   
-	 a {
-  	color:#222;
-}
 
 	 a:hover, a:focus {
   text-decoration: none;
@@ -396,9 +472,8 @@ svg {
   height: auto;
   background: url('../images/main_large.jpg')  center no-repeat;
   -webkit-background-size: cover;
-
-
 }
+
 
 #container-shape{
 border:0;
@@ -406,9 +481,16 @@ padding:0;
   display: inline-block;
   position: relative;
     width: 99%;
-	   height: 550px;
+height: 550px;
+}
 
-
+#container-shape-xs{
+border:0;
+padding:0;
+  display: inline-block;
+  position: relative;
+    width: 99%;
+height: 200px;
 }
 /* end wave shape*/
 
@@ -424,8 +506,16 @@ padding:0;
    width: 1200px;
   vertical-align: middle;
   height:150px;
+}
 
+.container-shape-end-xs{
+height:20px;
+}
 
+.posizione-xs{
+width:300px;
+  display: inline-block;
+  position: relative;
 }
 /* end wave shape*/
 
@@ -481,6 +571,19 @@ padding:0;
 	    #github,  #linkedin {
   color:#61122f;
     font-size: 1em;
+}
+
+
+#footer-xs {
+position: relative;
+ /* background: url('../images/main_large.jpeg') no-repeat;*/
+  font-size: 0.8em;
+  color: #61122f;
+	}
+	
+	    #github-xs,  #linkedin-xs {
+  color:#61122f;
+  font-size: 0.8em;
 }
 
 /* PROVA FLOATING OBJECT
