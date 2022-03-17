@@ -19,12 +19,13 @@ font-family: 'Bilbo', cursive;
   border: none;
   color: LightSlateGrey;
   text-align: center;
-  font-size: .7em;
-   width: 25px;
-  height: 15px;
+  font-size: 2vw;
+  font-weight:700;
+   width: 7vw;
+  height: 3vw;
   transition: all 0.5s;
-  margin: 5px;
-  box-shadow: 0px 2px 5px 1px LightSlateGrey;
+  margin: 1vw;
+  box-shadow: 5px 5px 10px 0.1px LightSlateGrey;
 }
 
 
@@ -72,35 +73,31 @@ font-family: 'Bilbo', cursive;
 }
 
 
-/** Button language select END **/
+/** Button language select **/
 /** ################################**/
 /** ################################**/
 /** ################################**/
 
-
-/** Sections background **/
-/** ################################**/
-/** ################################**/
-/** ################################**/
 #title {
 	font-family: 'Gentium Basic', serif;
-  background-color: Ivory;
-  width:1200px;
+  background-color: Lavender;
+  width:70%;
   height:auto;
   margin: auto, 0, auto, 0;
   color: #61122f;
   padding:0px;
+  	box-shadow: 5px 5px 10px 0.1px LightSlateGrey;
+ border-radius: 0px 0px 2% 2%;
   }
 
  
   
   #sections {
-	position:relative;
 
+  background-color: Lavender;
   width:100%;
-  padding: 10px; 
-  left:-12px;
-  margin:0;
+  height: 25vw;
+  padding: 5%;  
    
 }
 
@@ -108,27 +105,34 @@ font-family: 'Bilbo', cursive;
 h1 { /* Site name */
 font-family: 'Bilbo', cursive;
   color: #DABDAB;
-    text-shadow: .2px .2px .2px #222;
+    text-shadow: .2vw .2vw .2vw #222;
   text-transform: uppercase;
-  margin-top: 30px;
+  margin-top: 3vw;
   margin-bottom: 0;
+  -webkit-transition: all 0.5s ease-in-out;
    padding-top: 10px;
-   font-size: 2em; /* 1vw = 1% of viewport width */
+   font-size: 3vw; /* 1vw = 1% of viewport width */
   }
   
   #title p > span{ /* Manuela Pok */
   border: 0;
   padding:0;
-   font-size: 0.6em;
-
-    text-shadow: .2px .2px .2px #222;
+   font-size: 1vw;
+        -webkit-transition: all 0.5s ease-in-out;
+          transition: all 0.5s ease-out;
+          transition-property: all;
+          transition-duration: 0.5s;
+          transition-timing-function: ease-out;
+          transition-delay: 0s;
+		  text-align: center;
+	     text-shadow: 1px 1px 1px #222;	
 }
 
   
   h2 { /* menu bars - from buttonlist */
 font-family: 'Bilbo', cursive;
   color: #DABDAB;
-  font-size: 1em;
+  font-size: 1vw;
   text-shadow: 1px 1px 1px #222;
   margin: 0px, 0px, 0px, 0px ;
   padding:0px, 0px, 0px, 0px;
@@ -137,16 +141,17 @@ font-family: 'Bilbo', cursive;
   
   
     #instagram, #facebook, #twitter {
-  font-size: 0.8em;
+  font-size: 3vw;
     color:#61122f;
-	margin-left:5px;
+	margin-left:1vw;
+	margin-bottom:1px;
 }
 
 
 
 
 #header-nav {
-	background-color:Ivory;
+	background-color:Lavender;
 	margin:0;
 	padding:0;
 
@@ -154,7 +159,7 @@ font-family: 'Bilbo', cursive;
 
 
  #collapsable-nav a{ /* Collapsed nav menu text */
-    font-size: 1em;
+    font-size: 1vw;
 	width:100%;
 
 	margin:0;
@@ -169,6 +174,7 @@ font-family: 'Bilbo', cursive;
   #nav-list a{
 font-family: 'Bilbo', cursive;
   color: #DABDAB;
+  font-size: 1vw;
   text-shadow: 1px 1px 1px #222;
   padding: 5px;
   }
@@ -178,8 +184,9 @@ font-family: 'Bilbo', cursive;
 /* posizione bottone menu tendina */
 .navbar-toggle {
     position: relative;
+	bottom:10vw;
 	left:0;
-    background-color: Ivory;
+    background-color: Lavender;
     background-image: none;
     border-radius: 10px;
  border:1px;
@@ -190,8 +197,9 @@ font-family: 'Bilbo', cursive;
 /* Froma bottone menu tendina */
 .navbar-toggle .icon-bar {
   display: list;
-  width: 10px;
+  width: 5vw;
   height: 1px;
+  border-radius: 1px;
   padding:0;
   border:1px;
   margin:1px;
@@ -199,7 +207,7 @@ font-family: 'Bilbo', cursive;
 
   #contenitore_button{
 	position: relative;
-
+	bottom:-8vw;
 }
 
 
@@ -214,7 +222,7 @@ font-family: 'Bilbo', cursive;
 }
 
 .navbar-toggle:hover, .navbar-toggle:focus {
- background-color: Ivory;
+ background-color: Lavender;
 }
 
 
@@ -228,19 +236,26 @@ hr{
 	left:0%;
 }
 
-
+ul{
+	width: 100%;
+	padding:0;
+	margin:0;
+	border:0;
+	position:relative;
+	left:15px;
+}
 
 #divider{
-	color: #DABDAB;
-	  font-size: 5px;
-	  margin:0;
-	  padding:0;
+	color: #61122f;
+	  font-size: 1vw;
 }
 
   h3 { /* menu */
-font-family: 'Bilbo', cursive;
-  font-size: 1em;
-  margin:5px;
+	font-family: 'Gentium Basic', serif;
+  font-size: 1vw;
+  font-weight: bold;
+  margin: 0px;
+  margin: 0px;
   }
   
 
@@ -259,87 +274,87 @@ font-family: 'Bilbo', cursive;
 #main-content{
 
  /* background: url('../images/main_large.jpeg') no-repeat;*/
-    background:Ivory;
+    background:Lavender;
 	padding: 2% 5% 2% 5%;
-	width:1200px;
+  width:70%;
+  	box-shadow: 5px 5px 10px 0.1px LightSlateGrey;
 }
 
 #box-cerchio{
 position:relative;
-width:200px;
-height: 300px;
-
+width:100%;
+height: 30vw;
+border-radius: 10%;
+margin-bottom:10%;
+margin-top:50%;
 }
 
 
 /*sections containers*/
 #box{
-
+	padding:0;
+	margin:0;
+	border:0;
+	position:relative;
+	left:2%;
 }
 	
-	
-ul {
-  list-style-type: none;
-  padding:0;
-  
-  }
-  
-  	.table-multi {
-    width:100%;
-	  	 display: flex;
-	justify-content: space-between;
-	margin:10px;
-	padding:20px;
-	
-}
-
-  	.table-multi-menu {
-    width:50%;
-	display: flex;
-	justify-content: space-between;
-	margin-left:25%;
-}
 	
 	
 	  #descr1 {
 
  	position:relative;
-	 background: url('../images/health-food.jpg') no-repeat center;
-	background-size: cover;
-     width:300px;
-     height: 200px;
+	 background: url('../images/health-food.jpeg') no-repeat center;
+ background-size: cover;
+        width:10vw;
+      height: 7vw;
+      border-radius: 10% 30% 10% 30%;
+		margin: 1px;
+font-size: 1vw; /* 1vw = 1% of viewport width */
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #ffe4c4;
+	box-shadow: 5px 5px 10px 0.1px LightSlateGrey;
 
    }
    
    #descr2 {
 	position:relative;
-	 background: url('../images/Classes.jpg') no-repeat center;
-  background-size: cover;
-     width:300px;
-     height: 200px;
-
+	 background: url('../images/Classes.jpeg') no-repeat center;
+ background-size: cover;
+       width:10vw;
+      height: 7vw;
+      border-radius: 10% 30% 10% 30%;
+		margin: 1px;
+font-size: 1vw; /* 1vw = 1% of viewport width */
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #ffe4c4;
+		box-shadow: 5px 5px 10px 0.1px LightSlateGrey;	
    }
    
-  
    #descr3 {
 	position:relative;
-	 background: url('../images/mindset.jpg') no-repeat center;
-  background-size: cover;
-     width:300px;
-     height: 200px;
+	 background: url('../images/blog.jpeg') no-repeat center;
+ background-size: cover;
+       width:10vw;
+      height: 7vw;
+      border-radius: 10% 30% 10% 30%;
+		margin: 1px;
+font-size: 1em; /* 1px = 1% of viewport width */
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #ffe4c4;
+		box-shadow: 5px 5px 10px 0.1px LightSlateGrey;
 }
    
 
-   /*sections text and desctiption*/
-	  #descr1 a, #descr2 a, #descr3 a{
- 	position:relative;
-	  color: black;
-	  	font-size: 2em; /* 1vw = 1% of viewport width */
-   margin-left:10px;
-   text-shadow: 1px 1px 3px  white;
-   }
-   /*end sections text and desctiption*/
-
+   
+    #descr1:hover, #descr1:focus, #descr2:hover, #descr2:focus,  #descr3:hover, #descr3:focus {
+  -webkit-transition: all 0.5s ease-in-out;
+  text-decoration: none;
+  opacity: .8;
+  background-position: center;
+  border-radius: 20% 60% 20% 60%;
+  position: relative;
+}
 
 	
 
@@ -351,14 +366,12 @@ ul {
 
 #menu-list {
 font-family: 'Bilbo', cursive;
-  width:100%;
-  background: #FFF0F5;
+  width:90%;
+  position:relative;
+  left:10%;
+ /* background: #FFF0F5; */
   margin:0;
-  padding:0;
-  }
-  #menu-list ul {
-  margin:0;
-  padding:0;
+  padding:10px;
   }
   
   
@@ -372,7 +385,15 @@ font-family: 'Bilbo', cursive;
 }
 
 
-
+/*sections text and desctiption*/
+	  #descr1 a, #descr2 a, #descr3 a{
+ 	position:relative;
+	bottom:-100%;
+	  color: #DABDAB;
+    text-shadow: .2px .2px .2px #222;
+	font-weight: 700;
+   }
+   /*end sections text and desctiption*/
 
 
 
@@ -393,21 +414,17 @@ svg {
    width: 90%;
   vertical-align: middle;
   overflow: hidden;
-  height: auto;
-  background: url('../images/main_large.jpg')  center no-repeat;
+  height: 30vw;
+  background: url('../images/main_large.jpeg')  center no-repeat;
   -webkit-background-size: cover;
 
 
 }
 
 #container-shape{
+margin-top:5%;
 border:0;
 padding:0;
-  display: inline-block;
-  position: relative;
-    width: 99%;
-	   height: 550px;
-
 
 }
 /* end wave shape*/
@@ -421,9 +438,9 @@ padding:0;
   top:30px;
   margin:0;
   padding:0;
-   width: 1200px;
+   width: 70%;
   vertical-align: middle;
-  height:150px;
+  height:100px;
 
 
 }
@@ -433,31 +450,39 @@ padding:0;
   
    #selector-home  {
 	  color: #DABDAB;
+    text-shadow: .2px .2px .2px #222;
   }
      #selector-blog  {
 	  color: #DABDAB;
+    text-shadow: .2px .2px .2px #222;
   }
      #selector-calendar  {
 	  color: #DABDAB;
+    text-shadow: .2px .2px .2px #222;
   }
      #selector-contacts  {
 	  color: #DABDAB;
+    text-shadow: .2px .2px .2px #222;
   }
   
          #selector-home a {
 	  color: #DABDAB;
+    text-shadow: .2px .2px .2px black;
   }
   
          #selector-blog a {
 	  color: #DABDAB;
+    text-shadow: .2px .2px .2px black;
   }
   
          #selector-calendar a {
 	  color: #DABDAB;
+    text-shadow: .2px .2px .2px black;
   }
   
        #selector-contacts a {
 	  color: #DABDAB;
+    text-shadow: .2px .2px .2px black;
   }
   
   
@@ -470,10 +495,9 @@ padding:0;
 /* FOOTER */
 
 	#footer {
-		width:100%;
 		position: relative;
-		text-align:center;
  /* background: url('../images/main_large.jpeg') no-repeat;*/
+      border-radius: 10% 10% 10% 10%;
   font-size: 1em;
   color: #61122f;
 	}
