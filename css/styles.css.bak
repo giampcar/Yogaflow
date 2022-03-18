@@ -92,7 +92,7 @@ font-family: 'Bilbo', cursive;
 #title {
 	font-family: 'Gentium Basic', serif;
   background-color: Ivory;
-  width:1200px;
+  width:90%;
   height:auto;
   margin: auto, 0, auto, 0;
   color: #61122f;
@@ -101,7 +101,7 @@ font-family: 'Bilbo', cursive;
 #title-xs {
 	font-family: 'Gentium Basic', serif;
   background-color: Ivory;
-  width:300px;
+  width:90%;
   height:auto;
   margin: auto, 0, auto, 0;
   color: #61122f;
@@ -170,7 +170,7 @@ font-family: 'Bilbo', cursive;
 	background-color:Ivory;
 	margin:0;
 	padding:0;
-	width:300px;
+	width:90%;
   display: inline-block;
   position: relative;
 
@@ -217,7 +217,7 @@ font-family: 'Bilbo', cursive;
 
   #contenitore_button{
 	position: relative;
-	width:300px;
+	width:90%;
 }
 
 
@@ -242,7 +242,7 @@ hr{
 	padding: 0;
 	background-color:#DABDAB;
 	height:2px;
-	width: 300px;
+	width: 90%;
 	position: relative;
   display: inline-block;
   position: relative;
@@ -280,7 +280,7 @@ font-family: 'Bilbo', cursive;
  /* background: url('../images/main_large.jpeg') no-repeat;*/
     background:Ivory;
 	padding: 2% 5% 2% 5%;
-	width:1200px;
+	width:90%;
 
 }
 
@@ -289,7 +289,7 @@ font-family: 'Bilbo', cursive;
  /* background: url('../images/main_large.jpeg') no-repeat;*/
     background:Ivory;
 	padding: 2% 5% 2% 5%;
-	width:300px;
+	width:90%;
 	margin-top: -10px;
 
 }
@@ -380,15 +380,15 @@ ul {
    
 }
    	  #descr1-xs {
+	position:relative;
 
- 	position:relative;
 	 background: url('../images/health-food.jpg') no-repeat center;
-	background-size: cover;
+
+  background-size: cover;
      width:150px;
      height: 100px;
     padding:0 50% 0 50%;
 		    border-radius:15px;
-
    }
    
    #descr2-xs  {
@@ -466,9 +466,9 @@ svg {
   overflow: hidden;
   height: auto;
   background: url('../images/main_large.jpg')  center no-repeat;
+  box-shadow: 30px -30px 10px 0 Ivory inset, -30px -30px 10px 0 Ivory inset;
   -webkit-background-size: 1000px 600px;
    border-radius:0 0 15px 15px;
-     box-shadow:5px 20px 7px grey;
 }
 
 .container-xs {
@@ -477,13 +477,13 @@ svg {
   margin-top:1%;
   margin-bottom:10px;
   padding:0;
-   width: 90%;
+   width: 420px;
   overflow: hidden;
-  height: auto;
   background: url('../images/main_large.jpg')  center no-repeat;
-  -webkit-background-size:300px 200px; 
+  box-shadow: 20px -20px 5px 0 Ivory inset, -20px -20px 10px 0 Ivory inset;
+  -webkit-background-size:420px 300px; 
    border-radius:0 0 15px 15px;
-     box-shadow:5px 6px 5px grey;
+  
 }
 
 
@@ -495,6 +495,8 @@ padding:0;
   position: relative;
     width: 99%;
 height: 550px;
+
+
 }
 
 #container-shape-xs{
@@ -504,6 +506,7 @@ padding:0;
   position: relative;
     width: 99%;
 height: 200px;
+
 }
 /* end wave shape*/
 
@@ -516,7 +519,7 @@ height: 200px;
   top:30px;
   margin:0;
   padding:0;
-   width: 1200px;
+   width: 90%;
   vertical-align: middle;
   height:150px;
 
@@ -527,7 +530,7 @@ height:20px;
 }
 
 .posizione-xs{
-width:300px;
+width:90%;
   display: inline-block;
   position: relative;
 
@@ -590,7 +593,7 @@ font-family: 'Bilbo', cursive;
 /* FOOTER */
 
 	#footer {
-		width:1200px;
+		width:90%;
 		position: relative;
 		text-align:center;
  /* background: url('../images/main_large.jpeg') no-repeat;*/
