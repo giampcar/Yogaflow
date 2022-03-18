@@ -193,7 +193,10 @@ font-family: 'Bilbo', cursive;
   #nav-list a{
 font-family: 'Bilbo', cursive;
   color: #61122f;
-  padding: 1px;
+  }
+  
+    #collapsable-nav ul,  #collapsable-nav li {
+ margin:0px;
   }
 
 
@@ -230,6 +233,8 @@ font-family: 'Bilbo', cursive;
 .navbar-toggle:hover, .navbar-toggle:focus {
  background-color: red;
 }
+
+
 
 
 hr{
@@ -383,6 +388,7 @@ ul {
      height: 100px;
     padding:0 50% 0 50%;
 		    border-radius:15px;
+
    }
    
    #descr2-xs  {
@@ -462,6 +468,7 @@ svg {
   background: url('../images/main_large.jpg')  center no-repeat;
   -webkit-background-size: 1000px 600px;
    border-radius:0 0 15px 15px;
+     box-shadow:5px 20px 7px grey;
 }
 
 .container-xs {
@@ -476,6 +483,7 @@ svg {
   background: url('../images/main_large.jpg')  center no-repeat;
   -webkit-background-size:300px 200px; 
    border-radius:0 0 15px 15px;
+     box-shadow:5px 6px 5px grey;
 }
 
 
@@ -565,8 +573,6 @@ width:300px;
 font-family: 'Bilbo', cursive;
   width:100%;
   background: #FFF0F5;
-  margin:0;
-  padding:0;
   color:#61122f;
   }
   #menu-list a{
@@ -630,7 +636,9 @@ position: relative;
 /* END FOOTER */
 
 
-
+.navbar-nav {
+    margin: 0px;
+}
 
 
 

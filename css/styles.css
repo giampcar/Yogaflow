@@ -92,7 +92,7 @@ font-family: 'Bilbo', cursive;
 #title {
 	font-family: 'Gentium Basic', serif;
   background-color: Ivory;
-  width:1200px;
+  width:95%;
   height:auto;
   margin: auto, 0, auto, 0;
   color: #61122f;
@@ -101,7 +101,7 @@ font-family: 'Bilbo', cursive;
 #title-xs {
 	font-family: 'Gentium Basic', serif;
   background-color: Ivory;
-  width:300px;
+  width:95%;
   height:auto;
   margin: auto, 0, auto, 0;
   color: #61122f;
@@ -170,7 +170,7 @@ font-family: 'Bilbo', cursive;
 	background-color:Ivory;
 	margin:0;
 	padding:0;
-	width:300px;
+	width:95%;
   display: inline-block;
   position: relative;
 
@@ -193,7 +193,10 @@ font-family: 'Bilbo', cursive;
   #nav-list a{
 font-family: 'Bilbo', cursive;
   color: #61122f;
-  padding: 1px;
+  }
+  
+    #collapsable-nav ul,  #collapsable-nav li {
+ margin:0px;
   }
 
 
@@ -214,7 +217,7 @@ font-family: 'Bilbo', cursive;
 
   #contenitore_button{
 	position: relative;
-	width:300px;
+	width:95%;
 }
 
 
@@ -232,12 +235,14 @@ font-family: 'Bilbo', cursive;
 }
 
 
+
+
 hr{
 	margin: 0;
 	padding: 0;
 	background-color:#DABDAB;
 	height:2px;
-	width: 300px;
+	width: 95%;
 	position: relative;
   display: inline-block;
   position: relative;
@@ -275,7 +280,7 @@ font-family: 'Bilbo', cursive;
  /* background: url('../images/main_large.jpeg') no-repeat;*/
     background:Ivory;
 	padding: 2% 5% 2% 5%;
-	width:1200px;
+	width:95%;
 
 }
 
@@ -284,7 +289,7 @@ font-family: 'Bilbo', cursive;
  /* background: url('../images/main_large.jpeg') no-repeat;*/
     background:Ivory;
 	padding: 2% 5% 2% 5%;
-	width:300px;
+	width:95%;
 	margin-top: -10px;
 
 }
@@ -383,6 +388,7 @@ ul {
      height: 100px;
     padding:0 50% 0 50%;
 		    border-radius:15px;
+
    }
    
    #descr2-xs  {
@@ -462,6 +468,7 @@ svg {
   background: url('../images/main_large.jpg')  center no-repeat;
   -webkit-background-size: 1000px 600px;
    border-radius:0 0 15px 15px;
+     box-shadow:5px 20px 7px grey;
 }
 
 .container-xs {
@@ -476,6 +483,7 @@ svg {
   background: url('../images/main_large.jpg')  center no-repeat;
   -webkit-background-size:300px 200px; 
    border-radius:0 0 15px 15px;
+     box-shadow:5px 6px 5px grey;
 }
 
 
@@ -508,7 +516,7 @@ height: 200px;
   top:30px;
   margin:0;
   padding:0;
-   width: 1200px;
+   width: 95%;
   vertical-align: middle;
   height:150px;
 
@@ -519,7 +527,7 @@ height:20px;
 }
 
 .posizione-xs{
-width:300px;
+width:95%;
   display: inline-block;
   position: relative;
 
@@ -582,7 +590,7 @@ font-family: 'Bilbo', cursive;
 /* FOOTER */
 
 	#footer {
-		width:1200px;
+		width:95%;
 		position: relative;
 		text-align:center;
  /* background: url('../images/main_large.jpeg') no-repeat;*/
@@ -628,7 +636,9 @@ position: relative;
 /* END FOOTER */
 
 
-
+.navbar-nav {
+    margin: 0px;
+}
 
 
 
