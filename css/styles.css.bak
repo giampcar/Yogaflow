@@ -373,7 +373,7 @@ ul {
    
    #sections-xs {
 	position:relative;
-	width:80%;
+	width:75%;
 
    
 }
