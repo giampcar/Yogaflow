@@ -163,7 +163,7 @@
 	
 	    <div id="collapsable-nav" class="collapse navbar-collapse, visible-xs, .d-{sm,md,lg,xl}-block ">
 		<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs ">
-		    <hr></hr>
+		    <hr>
 		   <li><a id="Home" href="../Yogaflow/snippets/Home.html">Home</a></li>
 		   <hr>
 			<li><a id="Blog"  href="../Yogaflow/snippets/Blog.html">Blog</a></li>

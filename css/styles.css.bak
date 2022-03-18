@@ -75,7 +75,7 @@ font-family: 'Bilbo', cursive;
 	  color: Ivory;
 }
 #menu-button:hover, #menu-button:focus, #menu-button:active {
-	  color: red;
+	  color: #DABDAB;
 }
 
 
@@ -130,13 +130,13 @@ font-family: 'Bilbo', cursive;
   margin-top: 30px;
   margin-bottom: 0;
    padding-top: 10px;
-   font-size: 2em; /* 1vw = 1% of viewport width */
+   font-size: 2.7em; /* 1vw = 1% of viewport width */
   }
   
   #title p > span{ /* Manuela Pok */
   border: 0;
   padding:0;
-   font-size: 0.6em;
+   font-size: 1.1em;
 
     text-shadow: .2px .2px .2px #222;
 }
@@ -151,7 +151,7 @@ font-family: 'Bilbo', cursive;
   h2 { /* menu bars - from buttonlist */
 font-family: 'Bilbo', cursive;
   color: #DABDAB;
-  font-size: 1em;
+  font-size: 1.5em;
   text-shadow: 1px 1px 1px #222;
   margin: 0px, 0px, 0px, 0px ;
   padding:0px, 0px, 0px, 0px;
@@ -160,7 +160,7 @@ font-family: 'Bilbo', cursive;
   
   
     #instagram, #facebook, #twitter {
-  font-size: 0.8em;
+  font-size: 1em;
     color:#61122f;
 	margin-left:5px;
 }
@@ -189,14 +189,13 @@ font-family: 'Bilbo', cursive;
   
   #collapsable-nav a:hover{ /* Collapsed nav menu text */
   	width:100%;
-	background-color:LavenderBlush;
+	background-color:#DABDAB;
   }
   
   #nav-list a{
 font-family: 'Bilbo', cursive;
   color: #DABDAB;
-  text-shadow: 1px 1px 1px #222;
-  padding: 5px;
+  padding: 1px;
   }
 
 
@@ -214,9 +213,6 @@ font-family: 'Bilbo', cursive;
 
 
 /* Froma bottone menu tendina */
-.navbar-toggle .icon-bar {
-
-}
 
   #contenitore_button{
 	position: relative;
@@ -234,14 +230,14 @@ font-family: 'Bilbo', cursive;
 }
 
 .navbar-toggle:hover, .navbar-toggle:focus {
- background-color: Ivory;
+ background-color: red;
 }
 
 
 hr{
 	margin: 0;
 	padding: 0;
-	background-color:Lavender;
+	background-color:#DABDAB;
 	height:2px;
 	width: 300px;
 	position: relative;
@@ -253,14 +249,14 @@ hr{
 
 #divider{
 	color: #DABDAB;
-	  font-size: 5px;
+	  font-size: 7px;
 	  margin:0;
 	  padding:0;
 }
 
   h3 { /* menu */
 font-family: 'Bilbo', cursive;
-  font-size: 1em;
+  font-size: 1.5em;
   margin:5px;
   }
   
@@ -291,6 +287,7 @@ font-family: 'Bilbo', cursive;
     background:Ivory;
 	padding: 2% 5% 2% 5%;
 	width:300px;
+	margin-top: -10px;
 }
 
 #box-cerchio{
@@ -547,6 +544,10 @@ width:300px;
   }
   
        #selector-contacts a {
+	  color: #DABDAB;
+  }
+  
+     #home, #blog, #mindset, #contacts {
 	  color: #DABDAB;
   }
   
