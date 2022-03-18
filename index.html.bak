@@ -78,7 +78,7 @@
   	
  
     <div id="container-shape" class="container"> <!-- contiene foto principale -->
-  <svg viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
+  <svg viewBox="0 0 320 320" preserveAspectRatio="xMinYMin meet">
     <path d="M0,100 C170,150 100,50 500,100 L500,00 L0,0 Z" style="stroke: Ivory; fill:Ivory;"></path>
   </svg>
 </div>
@@ -182,13 +182,13 @@
   	
  
     <div id="container-shape-xs" class="container-xs"> <!-- contiene foto principale -->
-  <svg viewBox="0 0 300 300" preserveAspectRatio="xMinYMin meet">
+  <svg viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
     <path d="M0,100 C170,150 100,50 500,100 L500,00 L0,0 Z" style="stroke: Ivory; fill:Ivory;"></path>
   </svg>
 </div>
   
   
-  <div id="sections-xs" class="container-fluid col-2"> <!-- contiene foto -->
+  <div id="sections-xs" class="container-fluid"> <!-- contiene foto -->
 
 			<p id="descr1-xs" ><a href="../snippets/health.html">Health and Food</a></p>
 			<p id="descr2-xs"  ><a href="../snippets/classes.html">Classes</a></p>
