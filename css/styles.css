@@ -276,6 +276,7 @@ font-family: 'Bilbo', cursive;
     background:Ivory;
 	padding: 2% 5% 2% 5%;
 	width:1200px;
+
 }
 
 #main-content-xs{
@@ -285,6 +286,7 @@ font-family: 'Bilbo', cursive;
 	padding: 2% 5% 2% 5%;
 	width:300px;
 	margin-top: -10px;
+
 }
 
 #box-cerchio{
@@ -331,7 +333,7 @@ ul {
 	background-size: cover;
      width:300px;
      height: 200px;
-
+	    border-radius:20px;
    }
    
    #descr2 {
@@ -340,7 +342,7 @@ ul {
   background-size: cover;
      width:300px;
      height: 200px;
-
+	    border-radius:20px;
    }
    
   
@@ -350,6 +352,7 @@ ul {
   background-size: cover;
      width:300px;
      height: 200px;
+	    border-radius:20px;
 }
    
 
@@ -360,6 +363,7 @@ ul {
 	  	font-size: 2em; /* 1vw = 1% of viewport width */
    margin-left:10px;
    text-shadow: 1px 1px 3px  white;
+
    }
    
    
@@ -378,7 +382,7 @@ ul {
      width:150px;
      height: 100px;
     padding:0 50% 0 50%;
-
+		    border-radius:15px;
    }
    
    #descr2-xs  {
@@ -388,6 +392,7 @@ ul {
      width:150px;
      height: 100px;
     padding:0 50% 0 50%;
+		    border-radius:15px;
    }
    
   
@@ -398,6 +403,7 @@ ul {
      width:150px;
      height: 100px;
 	     padding:0 50% 0 50%;
+		    border-radius:15px;
 }
    
 
@@ -461,12 +467,27 @@ svg {
   margin-bottom:10px;
   padding:0;
    width: 90%;
-  vertical-align: middle;
   overflow: hidden;
   height: auto;
   background: url('../images/main_large.jpg')  center no-repeat;
-  -webkit-background-size: cover;
+  -webkit-background-size: 1000px 600px;
+   border-radius:0 0 15px 15px;
 }
+
+.container-xs {
+  display: inline-block;
+  position: relative;
+  margin-top:1%;
+  margin-bottom:10px;
+  padding:0;
+   width: 90%;
+  overflow: hidden;
+  height: auto;
+  background: url('../images/main_large.jpg')  center no-repeat;
+  -webkit-background-size:300px 200px; 
+   border-radius:0 0 15px 15px;
+}
+
 
 
 #container-shape{
@@ -500,6 +521,7 @@ height: 200px;
    width: 1200px;
   vertical-align: middle;
   height:150px;
+
 }
 
 .container-shape-end-xs{
@@ -510,6 +532,7 @@ height:20px;
 width:300px;
   display: inline-block;
   position: relative;
+
 }
 /* end wave shape*/
 
