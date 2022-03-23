@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Yoga Flow - Manuela Pokrivac</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -70,13 +70,13 @@
   
    	<ul>
 		<li class="table-multi-menu">
-			<a href="../Yogaflow/index.html" ><h3>Home</h3></a>
-			<a><span id="divider" class= "fa fa-circle"></span></a> 
-			<a href="../Yogaflow/snippets/classes.html" class="selector-classes"><h3>Classes</h3></a>
-			<a><span id="divider" class= "fa fa-circle"></span></a>
-			<a href="../Yogaflow/snippets/mindset.html"><h3>Mindset</h3></a>
-			<a><span id="divider" class= "fa fa-circle"></span></a>
-			<a href="../Yogaflow/snippets/contacts.html"><h3>Contacts</h3></a>
+			<p> <a href="../Yogaflow/index.html" ><h3>Home</h3></a> </p>
+			<p> <a><span id="divider" class= "fa fa-circle"></span></a> </p>
+			<p><a href="../Yogaflow/snippets/classes.html"><h3>Classes</h3></a></p>
+			<p> <a><span id="divider" class= "fa fa-circle"></span></a> </p>
+			<p><a href="../Yogaflow/snippets/mindset.html"><h3>Mindset</h3></a></p>
+			<p> <a><span id="divider" class= "fa fa-circle"></span></a> </p>
+			<p><a href="../Yogaflow/snippets/contacts.html"><h3>Contacts</h3></a></p>
 		</li>
 	</ul>
  
@@ -89,81 +89,27 @@
  
   <div id="main-content" class="container-fluid hidden-xs ">
   	
- 	<div class="maschera">
-		<div class="table-multi">
-		<ul class="ul-classes">
-		    <hr>
-		   <li>
-				<p><h3>Monday</h3></p>
-				<a><h4>18:00 - 19:00 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<a><h4>19:15 - 20:15 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<button>Book class</button>
-			</li>
+ 
+    <div id="container-shape" class="container"> <!-- contiene foto principale -->
+  <svg viewBox="0 0 320 320" preserveAspectRatio="xMinYMin meet">
+    <path d="M0,100 C170,150 100,50 500,100 L500,0 L0,0 Z" style="stroke: Ivory; fill:Ivory;"></path>
+  </svg>
+</div>
+  
+  
+  <div id="sections" class="container-fluid "> <!-- contiene foto -->
+	<ul>
+		<li class="table-multi">
 	
-		
-		</ul>
-		<ul class="ul-classes">
-		    <hr>
-		   <li>
-				<p><h3>Tuesday</h3></p>
-				<a><h4>18:00 - 19:00 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<a><h4>19:15 - 20:15 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<button>Book class</button>
-			</li>
-			</ul>
-		<ul class="ul-classes">
-		    <hr>
-		   <li>
-				<p><h3>Wednesday</h3></p>
-				<a><h4>18:00 - 19:00 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<a><h4>19:15 - 20:15 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<button>Book class</button>
-			</li>
-		</ul>
-		</ul>
-		<ul class="ul-classes">
-		    <hr>
-		   <li>
-				<p><h3>Thursday</h3></p>
-				<a><h4>18:00 - 19:00 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<a><h4>19:15 - 20:15 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<button>Book class</button>
-			</li>
-		</ul>
-		<ul class="ul-classes">
-		    <hr>
-		   <li>
-				<p><h3>Friday</h3></p>
-				<a><h4>18:00 - 19:00 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<a><h4>19:15 - 20:15 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<button>Book class</button>
-			</li>
-		
-		</ul>
-		</div>
-	
-			<ul class="ul-classes">
-		    <hr>
-		   <li>
-				<p><h3>Special Events</h3></p>
-				<a><h4>** Insert Date** Yoga Restreat<h4></a>
-				<a><h5>** Insert Information**  <h5></a>
-				<button>Book Event</button>
-			</li>
-		   <hr>
-		
-	</div>
-	</div>  
+			<p id="descr1" > <a href="../snippets/health.html">Health and Food</a></p>
+			<p id="descr2"  ><a href="../snippets/classes.html">Classes</a></p>
+			<p id="descr3" ><a href="../snippets/blog.html">Mindset</a></p>
+		</li>
+	</ul>		
+ </div>
+   
+  </div>
+  
     <div id="container-shape-end" class=" container-shape-end hidden-xs">
   <svg viewBox="0 0 500 150" >
     <path d="M0,100 C150,200 350,0 500,100 L500,0 L0,0 Z" style="stroke: none; fill:Ivory;"></path>
@@ -226,20 +172,18 @@
             <span class="icon-bar"></span>
           </button>
         </div>
-
-
 	
 	
 	    <div id="collapsable-nav" class="collapse navbar-collapse, visible-xs, .d-{sm,md,lg,xl}-block ">
 		<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs ">
 		    <hr>
-		   <li><a href="../Yogaflow/index.html">Home</a></li>
+		   <li><a id="home" href="../Yogaflow/index.html">Home</a></li>
 		   <hr>
-			<li><a id="selector-classes"  href="../Yogaflow/snippets/classes.html">Classes</a></li>
+			<li><a id="blog"  href="../Yogaflow/snippets/classes.html">Classes</a></li>
 			 <hr>
-			<li><a href="../Yogaflow/snippets/mindset.html">Mindset</a></li>
+			<li><a  id="mindset" href="../Yogaflow/snippets/mindset.html">Mindset</a></li>
 			 <hr>
-			<li><ahref="../Yogaflow/snippets/contacts.html">Contacts</a></li>
+			<li><a  id="contacts" href="../Yogaflow/snippets/contacts.html">Contacts</a></li>
 			 <hr>
 		</ul>
 		
@@ -249,80 +193,22 @@
  
   <div id="main-content-xs" class="container-fluid visible-xs ">
   	
- 	<div class="maschera">
-
-		<ul class="ul-classes">
-		    <hr>
-		   <li>
-				<p><h3>Monday</h3></p>
-				<a><h4>18:00 - 19:00 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<a><h4>19:15 - 20:15 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<button>Book class</button>
-			</li>
-	
-		
-		</ul>
-		<ul class="ul-classes">
-		    <hr>
-		   <li>
-				<p><h3>Tuesday</h3></p>
-				<a><h4>18:00 - 19:00 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<a><h4>19:15 - 20:15 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<button>Book class</button>
-			</li>
-			</ul>
-		<ul class="ul-classes">
-		    <hr>
-		   <li>
-				<p><h3>Wednesday</h3></p>
-				<a><h4>18:00 - 19:00 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<a><h4>19:15 - 20:15 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<button>Book class</button>
-			</li>
-		</ul>
-		</ul>
-		<ul class="ul-classes">
-		    <hr>
-		   <li>
-				<p><h3>Thursday</h3></p>
-				<a><h4>18:00 - 19:00 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<a><h4>19:15 - 20:15 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<button>Book class</button>
-			</li>
-		</ul>
-		<ul class="ul-classes">
-		    <hr>
-		   <li>
-				<p><h3>Friday</h3></p>
-				<a><h4>18:00 - 19:00 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<a><h4>19:15 - 20:15 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<button>Book class</button>
-			</li>
-		
-		</ul>
-		</div>
-	
-			<ul class="ul-classes">
-		    <hr>
-		   <li>
-				<p><h3>Special Events</h3></p>
-				<a><h4>** Insert Date** Yoga Restreat<h4></a>
-				<a><h5>** Insert Information**  <h5></a>
-				<button>Book Event</button> <button>More Info</button>
-			</li>
-		   <hr>
-		
+ 
+    <div id="container-shape-xs" class="container-xs"> <!-- contiene foto principale -->
+  <svg viewBox="0 0 400 400" preserveAspectRatio="xMinYMin meet">
+    <path d="M0,100 C170,150 100,50 500,100 L500,00 L0,0 Z" style="stroke: Ivory; fill:Ivory;"></path>
+  </svg>
+</div>
   
+  
+  <div id="sections-xs" class="container-fluid"> <!-- contiene foto -->
+
+			<p id="descr1-xs" ><a href="../snippets/health.html">Health and Food</a></p>
+			<p id="descr2-xs"  ><a href="../snippets/classes.html">Classes</a></p>
+			<p id="descr3-xs" ><a href="../snippets/blog.html">Mindset</a></p>
+
+ </div>
+   
   </div>
   
     <div class="container-shape-end-xs visible-xs">
@@ -360,10 +246,10 @@
 
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="./js/jquery-2.1.4.min.js"></script>
-  <script src="./js/bootstrap.min.js"></script>
-  <script src="./js/ajax-utils.js"></script>
-  <script src="./js/script.js"></script>
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ajax-utils.js"></script>
+  <script src="js/script.js"></script>
   
   
 

@@ -245,7 +245,7 @@ hr{
 	width: 90%;
 	position: relative;
   display: inline-block;
-  position: relative;
+
 }
 
 
@@ -453,7 +453,7 @@ ul {
 svg {
   display: inline-block;
   position: relative;
-  top: -30%;
+  top: -20%;
    left: 0px;
    
   }
@@ -542,52 +542,28 @@ width:90%;
 /* end wave shape*/
 
 /* evidenzia posizione menu */ 
-  
-   #selector-home  {
-	  color: #DABDAB;
-  }
-     #selector-blog  {
-	  color: #DABDAB;
-  }
-     #selector-calendar  {
-	  color: #DABDAB;
-  }
-     #selector-contacts  {
-	  color: #DABDAB;
-  }
-  
-         #selector-home a {
-	  color: #DABDAB;
-  }
-  
-         #selector-blog a {
-	  color: #DABDAB;
-  }
-  
-         #selector-calendar a {
-	  color: #DABDAB;
-  }
-  
-       #selector-contacts a {
-	  color: #DABDAB;
-  }
-  
-     #home, #blog, #mindset, #contacts {
-	  color: #DABDAB;
-  }
+
   
   #menu-list {
 font-family: 'Bilbo', cursive;
   width:100%;
   background: #FFF0F5;
-  color:#61122f;
-  }
-  #menu-list a{
   margin:0;
   padding:0;
   border:0;
- color:#61122f;
   }
+  
+    #menu-list a{
+color:#61122f;
+  }
+
+/* evidenzia posizione menu */ 
+.selector-classes h3{
+	  color: grey;
+
+		   }
+ 
+
 
   
   /* evidenzia posizione menu */ 
@@ -648,7 +624,21 @@ position: relative;
 }
 
 
+.maschera{
+	  height: 100%;
+	  width: 100%;
+
+   }
+
+/* CLASSES SECTION DETAILED */
 
 
 
+.ul-classes-dx hr{
+	width:70%
+}
+
+.ul-classes-sx p{
+
+}
 
