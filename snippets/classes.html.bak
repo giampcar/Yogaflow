@@ -47,7 +47,7 @@
     <nav id="title" class="navbar navbar-default container-fluid hidden-xs">
 	  <button class="button" ><a href="..snippets/Home_DE.html"><span>DE</span></a></button>
 	<!--  <button class="button_switch" ><a href="../Yogaflow/snippets/basic.html"><span >Problems with visualization?</span></a></button>-->
-            <a href="../Yogaflow/index.html""><h1>Yoga Flow</h1></a>
+            <a href="../index.html""><h1>Yoga Flow</h1></a>
             <p>
               <span>- Manuela Pokrivac -</span>
             </p>
@@ -72,7 +72,7 @@
   
    	<ul>
 		<li class="table-multi-menu">
-			<a href="../Yogaflow/index.html" ><h3>Home</h3></a>
+			<a href="../index.html" ><h3>Home</h3></a>
 			<a><span id="divider" class= "fa fa-circle"></span></a> 
 			<a class="selector-classes"><h3>Classes</h3></a>
 			<a><span id="divider" class= "fa fa-circle"></span></a>

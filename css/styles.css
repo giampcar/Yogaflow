@@ -636,10 +636,39 @@ position: relative;
 
 /* CLASSES SECTION DETAILED */
 
-.ul-classes h4{
+
+
+.ul-classes h3{
 	  color:#61122f;
+  font-size: 27px;
 		
 }
+
+.ul-classes h4{
+	  color:#61122f;
+  font-size: 25px;
+		
+}
+
+.ul-classes h5{
+  font-size: 20px;
+	}
+	
+.ul-classes-events h3{
+	  color:#61122f;
+  font-size: 27px;
+		
+}
+
+.ul-classes-events h4{
+	  color:#61122f;
+  font-size: 25px;
+		
+}
+
+.ul-classes-events h5{
+  font-size: 20px;
+	}
 
 .ul-classes hr{
 	  width:50%;	
@@ -654,7 +683,7 @@ position: relative;
 
 .divid{
 	width:2px;
-	height:130px;
+	height:180px;
 		margin-top:15px;
 	background-color:#61122f;
 	 border-radius:100px;
