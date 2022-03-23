@@ -47,7 +47,7 @@
     <nav id="title" class="navbar navbar-default container-fluid hidden-xs">
 	  <button class="button" ><a href="..snippets/Home_DE.html"><span>DE</span></a></button>
 	<!--  <button class="button_switch" ><a href="../Yogaflow/snippets/basic.html"><span >Problems with visualization?</span></a></button>-->
-            <a href="../index.html""><h1>Yoga Flow</h1></a>
+            <a href="../Yogaflow/index.html""><h1>Yoga Flow</h1></a>
             <p>
               <span>- Manuela Pokrivac -</span>
             </p>
@@ -72,13 +72,13 @@
   
    	<ul>
 		<li class="table-multi-menu">
-			<a href="../index.html" ><h3>Home</h3></a>
+			<a href="../Yogaflow/index.html" ><h3>Home</h3></a>
 			<a><span id="divider" class= "fa fa-circle"></span></a> 
 			<a class="selector-classes"><h3>Classes</h3></a>
 			<a><span id="divider" class= "fa fa-circle"></span></a>
-			<a href="../Yogaflow/snippets/in-progress.html"><h3>Mindset</h3></a>
+			<a href=".snippets/in-progress.html"><h3>Mindset</h3></a>
 			<a><span id="divider" class= "fa fa-circle"></span></a>
-			<a href="../Yogaflow/snippets/in-progress.html"><h3>Contacts</h3></a>
+			<a href="./snippets/in-progress.html"><h3>Contacts</h3></a>
 		</li>
 	</ul>
  
@@ -239,11 +239,11 @@
 		    <hr>
 		   <li><a href="../index.html">Home</a></li>
 		   <hr>
-			<li><a id="selector-classes"  href="../Yogaflow/snippets/classes.html">Classes</a></li>
+			<li><a id="selector-classes" >Classes</a></li>
 			 <hr>
-			<li><a href="../Yogaflow/snippets/in-progress.html">Mindset</a></li>
+			<li><a href="./in-progress.html">Mindset</a></li>
 			 <hr>
-			<li><a href="../Yogaflow/snippets/in-progress.html">Contacts</a></li>
+			<li><a href="./in-progress.html">Contacts</a></li>
 			 <hr>
 		</ul>
 		
