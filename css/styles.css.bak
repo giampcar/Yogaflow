@@ -667,7 +667,7 @@ position: relative;
 }
 
 .ul-classes-events h5{
-  font-size: 20px;
+  font-size: 22px;
 	}
 
 .ul-classes hr{
@@ -683,7 +683,7 @@ position: relative;
 
 .divid{
 	width:2px;
-	height:130px;
+	height:180px;
 		margin-top:15px;
 	background-color:#61122f;
 	 border-radius:100px;

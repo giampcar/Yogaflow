@@ -38,7 +38,7 @@
   
 <body>
 
- <div class="normalizzatore"> 
+ <div class="normalizzatore container-fluid"> 
   <header>
   
   
