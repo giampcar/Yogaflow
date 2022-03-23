@@ -431,7 +431,10 @@ ul {
     margin:0;
 	padding:0;
   }
-
+   #menu-list ul {
+    margin:0;
+	padding:0;
+  }
 
   
   
@@ -452,10 +455,9 @@ svg {
   position: relative;
   top: -30%;
    left: 0px;
-  
+   
   }
   
-
   
  
 .container {
@@ -544,10 +546,10 @@ width:90%;
    #selector-home  {
 	  color: #DABDAB;
   }
-     #selector-blog  {
+     #selector-mindset  {
 	  color: #DABDAB;
   }
-     #selector-calendar  {
+     #selector-classes  {
 	  color: #DABDAB;
   }
      #selector-contacts  {
@@ -558,7 +560,7 @@ width:90%;
 	  color: #DABDAB;
   }
   
-         #selector-blog a {
+         #selector-classes a {
 	  color: #DABDAB;
   }
   
@@ -570,7 +572,7 @@ width:90%;
 	  color: #DABDAB;
   }
   
-     #home, #blog, #mindset, #contacts {
+     #home, #classes, #mindset, #contacts {
 	  color: #DABDAB;
   }
   
