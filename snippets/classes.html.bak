@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Yoga Flow - Manuela Pokrivac</title>
-    <link rel="stylesheet" href="./Yogaflow/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./Yogaflow/css/styles.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -72,7 +72,7 @@
 		<li class="table-multi-menu">
 			<a href="../Yogaflow/index.html" ><h3>Home</h3></a>
 			<a><span id="divider" class= "fa fa-circle"></span></a> 
-			<a href="../Yogaflow/snippets/classes.html" class="selector-classes"><h3>Classes</h3></a>
+			<a href="../snippet/classes.html" class="selector-classes"><h3>Classes</h3></a>
 			<a><span id="divider" class= "fa fa-circle"></span></a>
 			<a href="../Yogaflow/snippets/mindset.html"><h3>Mindset</h3></a>
 			<a><span id="divider" class= "fa fa-circle"></span></a>
@@ -92,7 +92,7 @@
  	<div class="maschera">
 		<div class="table-multi">
 		<ul class="ul-classes">
-		    <hr>
+		 
 		   <li>
 				<p><h3>Monday</h3></p>
 				<a><h4>18:00 - 19:00 <h4></a>
@@ -104,8 +104,9 @@
 	
 		
 		</ul>
+		<div class="divid"></div>
 		<ul class="ul-classes">
-		    <hr>
+
 		   <li>
 				<p><h3>Tuesday</h3></p>
 				<a><h4>18:00 - 19:00 <h4></a>
@@ -115,8 +116,9 @@
 				<button>Book class</button>
 			</li>
 			</ul>
+					<div class="divid"></div>
 		<ul class="ul-classes">
-		    <hr>
+
 		   <li>
 				<p><h3>Wednesday</h3></p>
 				<a><h4>18:00 - 19:00 <h4></a>
@@ -126,9 +128,9 @@
 				<button>Book class</button>
 			</li>
 		</ul>
-		</ul>
+	<div class="divid"></div>
 		<ul class="ul-classes">
-		    <hr>
+
 		   <li>
 				<p><h3>Thursday</h3></p>
 				<a><h4>18:00 - 19:00 <h4></a>
@@ -138,8 +140,8 @@
 				<button>Book class</button>
 			</li>
 		</ul>
+	<div class="divid"></div>
 		<ul class="ul-classes">
-		    <hr>
 		   <li>
 				<p><h3>Friday</h3></p>
 				<a><h4>18:00 - 19:00 <h4></a>
@@ -152,7 +154,7 @@
 		</ul>
 		</div>
 	
-			<ul class="ul-classes">
+			<ul class="ul-classes-events">
 		    <hr>
 		   <li>
 				<p><h3>Special Events</h3></p>
@@ -160,7 +162,7 @@
 				<a><h5>** Insert Information**  <h5></a>
 				<button>Book Event</button>
 			</li>
-		   <hr>
+
 		
 	</div>
 	</div>  
@@ -312,7 +314,7 @@
 		</ul>
 		</div>
 	
-			<ul class="ul-classes">
+			<ul class="ul-classes-events">
 		    <hr>
 		   <li>
 				<p><h3>Special Events</h3></p>
@@ -320,7 +322,7 @@
 				<a><h5>** Insert Information**  <h5></a>
 				<button>Book Event</button> <button>More Info</button>
 			</li>
-		   <hr>
+
 		
   
   </div>
@@ -360,10 +362,10 @@
 
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="./Yogaflow/js/jquery-2.1.4.min.js"></script>
-  <script src="./Yogaflow/js/bootstrap.min.js"></script>
-  <script src="./Yogaflow/js/ajax-utils.js"></script>
-  <script src="./Yogaflow/js/script.js"></script>
+  <script src="../js/jquery-2.1.4.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/ajax-utils.js"></script>
+  <script src="../js/script.js"></script>
   
 </body>
 </html>

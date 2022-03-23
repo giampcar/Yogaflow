@@ -560,7 +560,6 @@ color:#61122f;
 /* evidenzia posizione menu */ 
 .selector-classes h3{
 	  color: grey;
-
 		   }
  
 
@@ -625,6 +624,7 @@ position: relative;
 
 
 .maschera{
+	margin-top:20px;
 	  height: 100%;
 	  width: 100%;
 
@@ -632,6 +632,28 @@ position: relative;
 
 /* CLASSES SECTION DETAILED */
 
+.ul-classes h4{
+	  color:#61122f;
+		
+}
 
+.ul-classes hr{
+	  width:50%;	
+	 border:1px;
+}
 
+.ul-classes-events hr{
+	  width:90%;	
+	 border:1px;
+	 border-radius:100px;
+}
+
+.divid{
+	width:2px;
+	height:130px;
+		margin-top:15px;
+	background-color:#61122f;
+	 border-radius:100px;
+	 opacity:.6;
+}
 
