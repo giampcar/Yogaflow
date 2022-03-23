@@ -12,16 +12,16 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap" rel="stylesheet" type='text/css'>
+
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bilbo&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
-
 	
-		<link rel="icon" href="images\favicon-96x96.ico" type="image/x-icon" />
-	<link rel="shortcut icon" href="images\favicon-96x96.ico" type="image/x-icon" />
+		<link rel="icon" href="../images/favicon-96x96.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="../images/favicon-96x96.ico" type="image/x-icon" />
 	
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-C909G41RC2"></script>
@@ -76,9 +76,9 @@
 			<a><span id="divider" class= "fa fa-circle"></span></a> 
 			<a class="selector-classes"><h3>Classes</h3></a>
 			<a><span id="divider" class= "fa fa-circle"></span></a>
-			<a href=".snippets/in-progress.html"><h3>Mindset</h3></a>
+			<a href="../snippets/in-progress.html"><h3>Mindset</h3></a>
 			<a><span id="divider" class= "fa fa-circle"></span></a>
-			<a href="./snippets/in-progress.html"><h3>Contacts</h3></a>
+			<a href="../snippets/in-progress.html"><h3>Contacts</h3></a>
 		</li>
 	</ul>
  
@@ -92,81 +92,17 @@
   <div id="main-content" class="container-fluid hidden-xs ">
   	
  	<div class="maschera">
-		<div class="table-multi">
-		<ul class="ul-classes">
-		 
-		   <li>
-				<p><h3>Monday</h3></p>
-				<a><h4>18:00 - 19:00 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<a><h4>19:15 - 20:15 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<button>Book class</button>
-			</li>
-	
-		
-		</ul>
-		<div class="divid"></div>
-		<ul class="ul-classes">
 
-		   <li>
-				<p><h3>Tuesday</h3></p>
-				<a><h4>18:00 - 19:00 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<a><h4>19:15 - 20:15 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<button>Book class</button>
-			</li>
-			</ul>
-					<div class="divid"></div>
-		<ul class="ul-classes">
-
-		   <li>
-				<p><h3>Wednesday</h3></p>
-				<a><h4>18:00 - 19:00 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<a><h4>19:15 - 20:15 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<button>Book class</button>
-			</li>
-		</ul>
-	<div class="divid"></div>
-		<ul class="ul-classes">
-
-		   <li>
-				<p><h3>Thursday</h3></p>
-				<a><h4>18:00 - 19:00 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<a><h4>19:15 - 20:15 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<button>Book class</button>
-			</li>
-		</ul>
-	<div class="divid"></div>
-		<ul class="ul-classes">
-		   <li>
-				<p><h3>Friday</h3></p>
-				<a><h4>18:00 - 19:00 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<a><h4>19:15 - 20:15 <h4></a>
-				<a><h5>Yoga Flow easy (beginner)<h5></a>
-				<button>Book class</button>
-			</li>
-		
-		</ul>
-		</div>
 	
 			<ul class="ul-classes-events">
 		    <hr>
 		   <li>
-				<p><h3>Special Events</h3></p>
-				<a><h4>** Insert Date** Yoga Restreat<h4></a>
-				<a><h5>** Insert Information**  <h5></a>
-				<button>Book Event</button>
+				<p><h3>Page in progress..</h3></p>
+
+				<i class="fa  fa-refresh w3-spin"></i>
+
 			</li>
 
-		
-	</div>
 	</div>  
     <div id="container-shape-end" class=" container-shape-end hidden-xs">
   <svg viewBox="0 0 500 150" >
@@ -237,13 +173,13 @@
 	    <div id="collapsable-nav" class="collapse navbar-collapse, visible-xs, .d-{sm,md,lg,xl}-block ">
 		<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs ">
 		    <hr>
-		   <li><a href="../index.html">Home</a></li>
+		   <li><a href="../Yogaflow/index.html">Home</a></li>
 		   <hr>
 			<li><a id="selector-classes"  href="../Yogaflow/snippets/classes.html">Classes</a></li>
 			 <hr>
-			<li><a href=".snippets/in-progress.html">Mindset</a></li>
+			<li><a href="../Yogaflow/snippets/mindset.html">Mindset</a></li>
 			 <hr>
-			<li><a href=".snippets/in-progress.html">Contacts</a></li>
+			<li><ahref="../Yogaflow/snippets/contacts.html">Contacts</a></li>
 			 <hr>
 		</ul>
 		

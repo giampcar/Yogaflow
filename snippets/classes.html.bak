@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Yoga Flow - Manuela Pokrivac</title>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
 
@@ -17,6 +18,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bilbo&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+
 	
 		<link rel="icon" href="images\favicon-96x96.ico" type="image/x-icon" />
 	<link rel="shortcut icon" href="images\favicon-96x96.ico" type="image/x-icon" />
@@ -45,7 +47,7 @@
     <nav id="title" class="navbar navbar-default container-fluid hidden-xs">
 	  <button class="button" ><a href="..snippets/Home_DE.html"><span>DE</span></a></button>
 	<!--  <button class="button_switch" ><a href="../Yogaflow/snippets/basic.html"><span >Problems with visualization?</span></a></button>-->
-            <a href="index.html"><h1>Yoga Flow</h1></a>
+            <a href="../index.html""><h1>Yoga Flow</h1></a>
             <p>
               <span>- Manuela Pokrivac -</span>
             </p>
@@ -72,11 +74,11 @@
 		<li class="table-multi-menu">
 			<a href="../index.html" ><h3>Home</h3></a>
 			<a><span id="divider" class= "fa fa-circle"></span></a> 
-			<a href="./classes.html" class="selector-classes"><h3>Classes</h3></a>
+			<a class="selector-classes"><h3>Classes</h3></a>
 			<a><span id="divider" class= "fa fa-circle"></span></a>
-			<a href="../Yogaflow/snippets/mindset.html"><h3>Mindset</h3></a>
+			<a href="../Yogaflow/snippets/in-progress.html"><h3>Mindset</h3></a>
 			<a><span id="divider" class= "fa fa-circle"></span></a>
-			<a href="../Yogaflow/snippets/contacts.html"><h3>Contacts</h3></a>
+			<a href="../Yogaflow/snippets/in-progress.html"><h3>Contacts</h3></a>
 		</li>
 	</ul>
  
@@ -235,13 +237,13 @@
 	    <div id="collapsable-nav" class="collapse navbar-collapse, visible-xs, .d-{sm,md,lg,xl}-block ">
 		<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs ">
 		    <hr>
-		   <li><a href="../Yogaflow/index.html">Home</a></li>
+		   <li><a href="../index.html">Home</a></li>
 		   <hr>
 			<li><a id="selector-classes"  href="../Yogaflow/snippets/classes.html">Classes</a></li>
 			 <hr>
-			<li><a href="../Yogaflow/snippets/mindset.html">Mindset</a></li>
+			<li><a href="../Yogaflow/snippets/in-progress.html">Mindset</a></li>
 			 <hr>
-			<li><ahref="../Yogaflow/snippets/contacts.html">Contacts</a></li>
+			<li><a href="../Yogaflow/snippets/in-progress.html">Contacts</a></li>
 			 <hr>
 		</ul>
 		
