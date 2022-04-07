@@ -563,11 +563,11 @@ color:#61122f;
 
 /* evidenzia posizione menu */ 
 .selector-classes h3{
-	  color: grey;
+color: !important:grey;
 		   }
  
  .selector-home h3{
-	  color: grey;
+	  color: !important:grey;;
 		   }
  
 

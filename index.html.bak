@@ -54,8 +54,10 @@
               <span>- Manuela Pokrivac -</span>
             </p>
 			<p>
-			<a id= "facebook" href="https://www.facebook.com/mariposayogawithlinda/" target="_blank" class="fa fa-facebook-square"></a>
-			<a id= "instagram" href="https://www.instagram.com/mariposa.yoga/" target="_blank" class="fa fa-instagram"></a>
+			<a class="fa fa-facebook-square" href="https://www.facebook.com/mariposayogawithlinda/" id="facebook"
+               target="_blank"></a>
+			<a class="fa fa-instagram" href="https://www.instagram.com/mariposa.yoga/" id="instagram"
+               target="_blank"></a>
 			</p>
 	
 	
@@ -75,13 +77,13 @@
   
    	<ul>
 		<li class="table-multi-menu">
-			<p> <a href="../Yogaflow/index.html" ><h3>Home</h3></a> </p>
+			<p><h3><a href="../Yogaflow/index.html" class="selector-classes">Home</a></h3></p>
 			<p> <a><span id="divider" class= "fa fa-circle"></span></a> </p>
-			<p><a href="./snippets/classes.html"><h3>Classes</h3></a></p>
+			<p><h3><a href="./snippets/classes.html">Classes</a></h3></p>
 			<p> <a><span id="divider" class= "fa fa-circle"></span></a> </p>
-			<p><a href="./snippets/in-progress.html"><h3>Mindset</h3></a></p>
+			<p><h3><a href="./snippets/in-progress.html">Mindset</a></h3></p>
 			<p> <a><span id="divider" class= "fa fa-circle"></span></a> </p>
-			<p><a href="./snippets/in-progress.html"><h3>Contacts</h3></a></p>
+			<p><h3><a href="./snippets/in-progress.html">Contacts</a></h3></p>
 		</li>
 	</ul>
  
@@ -141,7 +143,7 @@
 			
   </footer>
 
- <div>
+ </div>
 
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
@@ -182,15 +184,15 @@
 	
 	    <div id="collapsable-nav" class="collapse navbar-collapse, visible-xs, .d-{sm,md,lg,xl}-block ">
 		<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs ">
-		    <hr>
-		   <li><a id="home" href="../index.html">Home</a></li>
-		   <hr>
-			<li><a id="blog"  href="./snippets/classes.html">Classes</a></li>
-			 <hr>
-			<li><a  id="mindset" href="./snippets/in-progress.html">Mindset</a></li>
-			 <hr>
-			<li><a  id="contacts" href="./snippets/in-progress.html">Contacts</a></li>
-			 <hr>
+		    <li><hr></li>
+		   <li><a class="selector-classes"><h3>Home</h3></a></li>
+            <li><hr></li>
+			<li><a id="blog"  href="./snippets/classes.html"><h3>Classes</h3></a></li>
+            <li><hr></li>
+			<li><a  id="mindset" href="./snippets/in-progress.html"><h3>Mindset</h3></a></li>
+            <li><hr></li>
+			<li><a  id="contacts" href="./snippets/in-progress.html"><h3>Contacts</h3></a></li>
+            <li><hr></li>
 		</ul>
 		
 
@@ -256,8 +258,7 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/ajax-utils.js"></script>
   <script src="js/script.js"></script>
-  
-  
+
 
 </body>
 </html>
