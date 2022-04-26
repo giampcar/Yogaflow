@@ -19,7 +19,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Bilbo&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
 
-	
+<!-- PRELOAD IMAGES-->	
+
+<link rel="preload" as="image" href="/images/slideshow_1/1.jpg">
+
+<!-- PRELOAD IMAGES-->	
 		<link rel="icon" href="images\favicon-96x96.ico" type="image/x-icon" />
 	<link rel="shortcut icon" href="images\favicon-96x96.ico" type="image/x-icon" />
 	
@@ -77,7 +81,7 @@
   
    	<ul>
 		<li class="table-multi-menu">
-			<p><h3><a href="../Yogaflow/index.html" class="selector-classes">Home</a></h3></p>
+			<p><a href="../Yogaflow/index.html" class="selector-classes"><h3>Home</h3></a></p>
 			<p> <a><span id="divider" class= "fa fa-circle"></span></a> </p>
 			<p><h3><a href="./snippets/classes.html">Classes</a></h3></p>
 			<p> <a><span id="divider" class= "fa fa-circle"></span></a> </p>
