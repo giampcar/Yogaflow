@@ -284,7 +284,7 @@ font-family: 'Bilbo', cursive;
 #main-content{	/* MAIN CONTAINER */
 
     background:Ivory;
-	padding: 1% 5% 0 5%;
+	padding: 1% 4% 0 6%;
 	width:90%;
 		margin-top: -10px;
 
@@ -293,7 +293,7 @@ font-family: 'Bilbo', cursive;
 #main-content-xs{	/* MAIN CONTAINER */
 
     background:Ivory;
-	padding: 1% 5% 0 5%;
+	padding: 1% 4% 0 6%;
 	width:90%;
 	margin-top: -10px;
 
@@ -469,15 +469,15 @@ svg {
 .container {
   display: inline-block;
   position: relative;
-  margin-bottom:10px;
-  padding:0;
-   width: 90%;
+   width: 100%;
   overflow: hidden;
   height: auto;
   background: url('../images/main_large.jpg')  center no-repeat;
   box-shadow: 30px -30px 10px 0 Ivory inset, -30px -30px 10px 0 Ivory inset;
   -webkit-background-size: 1000px 600px;
    border-radius:0 0 15px 15px;
+     margin-left: -1%;
+	 padding:10px;
 }
 
 .container-xs {
@@ -567,7 +567,7 @@ color: !important:grey;
 		   }
  
  .selector-home h3{
-	  color: grey;
+	  color: !important:grey;;
 		   }
  
 
