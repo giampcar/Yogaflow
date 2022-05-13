@@ -21,10 +21,10 @@
 
 <!-- PRELOAD IMAGES-->	
 
-<link rel="preload" as="image" href="/images/main_large.jpg">
-<link rel="preload" as="image" href="/images/health-food.jpg">
-<link rel="preload" as="image" href="/images/Classes.jpg">
-<link rel="preload" as="image" href="/images/mindset.jpg.jpg">
+<link rel="preload" as="image" href="./images/main_large.jpg">
+<link rel="preload" as="image" href="./images/health-food.jpg">
+<link rel="preload" as="image" href="./images/Classes.jpg">
+<link rel="preload" as="image" href="./images/mindset.jpg">
 
 <!-- PRELOAD IMAGES-->	
 		<link rel="icon" href="images\favicon-96x96.ico" type="image/x-icon" />
@@ -49,20 +49,17 @@
   <header>
   
   
-
-
-  
   
     <nav id="title" class="navbar navbar-default container-fluid hidden-xs">
-	  <button class="button" ><a href="../Yogaflow/snippets/Home_DE.html"><span>DE</span></a></button>
+	<!--   <button class="button" ><a href="../Yogaflow/snippets/Home_DE.html"><span>DE</span></a></button>
 	<!--  <button class="button_switch" ><a href="../Yogaflow/snippets/basic.html"><span >Problems with visualization?</span></a></button>-->
             <a href="index.html"><h1>Yoga Flow</h1></a>
             <p>
               <span>- Manuela Pokrivac -</span>
             </p>
 			<p>
-			<a class="fa fa-facebook-square" href="https://www.facebook.com/mariposayogawithlinda/" id="facebook"
-               target="_blank"></a>
+		<!--	<a class="fa fa-facebook-square" href="https://www.facebook.com/mariposayogawithlinda/" id="facebook"
+               target="_blank"></a> -->
 			<a class="fa fa-instagram" href="https://www.instagram.com/mariposa.yoga/" id="instagram"
                target="_blank"></a>
 			</p>
@@ -84,11 +81,11 @@
   
    	<ul>
 		<li class="table-multi-menu">
-			<p><a href="../Yogaflow/index.html" class="selector-classes"><h3>Home</h3></a></p>
+			<p><a href="./index.html" class="selector-classes"><h3>Home</h3></a></p>
 			<p> <a><span id="divider" class= "fa fa-circle"></span></a> </p>
 			<p><h3><a href="./snippets/classes.html">Classes</a></h3></p>
 			<p> <a><span id="divider" class= "fa fa-circle"></span></a> </p>
-			<p><h3><a href="./snippets/in-progress.html">Mindset</a></h3></p>
+			<p><h3><a href="./snippets/in-progress.html">Yoga</a></h3></p>
 			<p> <a><span id="divider" class= "fa fa-circle"></span></a> </p>
 			<p><h3><a href="./snippets/in-progress.html">Contacts</a></h3></p>
 		</li>
@@ -117,7 +114,7 @@
 	
 			<p id="descr1" > <a href="./snippets/in-progress.html">Health and Food</a></p>
 			<p id="descr2"  ><a href="./snippets/classes.html">Classes</a></p>
-			<p id="descr3" ><a href="./snippets/in-progress.html">Mindset</a></p>
+			<p id="descr3" ><a href="./snippets/in-progress.html">Yoga</a></p>
 		</li>
 	</ul>		
  </div>
@@ -139,7 +136,7 @@
               <span id="footer"> &copy; Copyright G.Carducci - 2022
 			  <a id= "linkedin" href="https://www.linkedin.com/in/giampaolocarducci/" target="_blank" class="fa fa-linkedin-square"></a>
        		  <a id= "github" href="https://github.com/giampcar" target="_blank" class="fa fa-github-square"></a>
-			
+			    <p><a href="./data-protection/privacy-policy.html" target="_blank">Cookies policy</a></p>
 			</span>
 
   <!-- PROVA FLOATING OBJECT 		
@@ -196,7 +193,7 @@
             <li><hr></li>
 			<li><a id="blog"  href="./snippets/classes.html"><h3>Classes</h3></a></li>
             <li><hr></li>
-			<li><a  id="mindset" href="./snippets/in-progress.html"><h3>Mindset</h3></a></li>
+			<li><a  id="mindset" href="./snippets/in-progress.html"><h3>Yoga</h3></a></li>
             <li><hr></li>
 			<li><a  id="contacts" href="./snippets/in-progress.html"><h3>Contacts</h3></a></li>
             <li><hr></li>
@@ -220,9 +217,10 @@
 
 			<p id="descr1-xs" ><a href="./snippets/in-progress.html">Health and Food</a></p>
 			<p id="descr2-xs"  ><a href="./snippets/classes.html">Classes</a></p>
-			<p id="descr3-xs" ><a href="./snippets/in-progress.html">Mindset</a></p>
+			<p id="descr3-xs" ><a href="./snippets/in-progress.html">Yoga</a></p>
 
  </div>
+ 
    
   </div>
   
@@ -231,6 +229,8 @@
   <svg viewBox="0 0 500 150" preserveAspectRatio="xMinYMin meet">
     <path d="M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z" style="stroke: none; fill:Ivory;"></path>
   </svg>
+  
+    
   </div>
 </div>
 
@@ -239,8 +239,11 @@
               <span id="footer-xs"> &copy; Copyright G.Carducci - 2022
 			  <a id= "linkedin-xs" href="https://www.linkedin.com/in/giampaolocarducci/" target="_blank" class="fa fa-linkedin-square"></a>
        		  <a id= "github-xs" href="https://github.com/giampcar" target="_blank" class="fa fa-github-square"></a>
-			
+			  <p><a href="./data-protection/privacy-policy.html" target="_blank">Cookies policy</a></p>
 			</span>
+			
+			
+	
   </footer>
   <!-- PROVA FLOATING OBJECT 		
 	<div id="prova">

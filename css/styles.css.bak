@@ -90,6 +90,37 @@ font-family: 'Bilbo', cursive;
 /** ################################**/
 
 
+/** DROPDOWN menu **/
+/** ################################**/
+/** ################################**/
+/** ################################**/
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left:-100px;
+  background-color: Ivory;
+  min-width: 350px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 10%;
+  padding: 5px 5px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/** ################################**/
+/** ################################**/
+/** ################################**/
+
 /** Sections background **/
 /** ################################**/
 /** ################################**/
@@ -476,7 +507,7 @@ svg {
   box-shadow: 30px -30px 10px 0 Ivory inset, -30px -30px 10px 0 Ivory inset;
   -webkit-background-size: 1000px 600px;
    border-radius:0 0 15px 15px;
-     margin-left: -1%;
+     margin-left: -3%;
 	 padding:10px;
 }
 
