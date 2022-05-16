@@ -1,3 +1,32 @@
+
+function checkCookie() {
+  let username = getCookie("username");
+  if (username != "") {
+   alert("Welcome again " + username);
+  } else {
+    username = prompt("Please enter your name:", "");
+    if (username != "" && username != null) {
+      setCookie("username", username, 365);
+    }
+  }
+}
+
+
+$(".accept").click(function(){
+    $(".cookie").hide();
+
+    checkCookie();
+  
+  });
+
+$(".acceptpartial").click(function(){
+    $(".cookie").hide();
+
+    checkCookie();
+  
+  });
+
+
 function setCookie(cname, cvalue, exdays) {
   const d = new Date();
   d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
@@ -23,13 +52,10 @@ function getCookie(cname) {
 function checkCookie() {
   let user = getCookie("username");
   if (user != "") {
-    alert("Welcome again " + user);
   } else {
-    user = prompt("We and selected third parties use cookies or similar technologies for technical purposes and, with your consent, also for other purposes (experience improvement and measurement) as specified in the","BOOOOOOOO");
-	user = prompt("You can freely give, refuse or revoke your consent at any time.");
-    if (user != "" && user != null) {
+    user = prompt("Diese Website verwendet Cookies. Weitere Informationen zu den Cookie-Arten finden sich unter den jeweiligen Kategorien. Dort lassen sich auch einzelne Cookies aktivieren. Die Cookie-Einstellungen können jederzeit über den Link im Footer dieser Website angepasst werden","Benutzernamen eingeben oder auf Akzeptieren klicken");
+      if (user != "" && user != null) {
       setCookie("username", user, 365);
-    }
+}
   }
 }
-
