@@ -406,8 +406,6 @@ ul {
    }
    
    
-   
-   
    #sections-xs {
 	position:relative;
 	width:80%;
@@ -686,9 +684,24 @@ position: relative;
 		
 }
 
+/* Comments and informations*/
+
 .ul-classes h5{
   font-size: 20px;
 	}
+
+  .ul-classes h6{
+    color:#61122f;
+  font-size: 18px;
+    
+}
+  .ul-classes h7{
+    color:green;
+  font-size: 16px;
+    
+}
+
+/* Comments and informations*/
 	
 .ul-classes-events h3{
 	  color:#61122f;
@@ -726,3 +739,16 @@ position: relative;
 	 opacity:.6;
 }
 
+.gmap_canvas{
+      overflow:hidden;
+    background:none!important;
+    height:100px;
+    width:100%;
+  }
+
+  .mapouter{
+    position:relative;
+    text-align:right;
+    height:100px;
+    width:100%;
+  }
