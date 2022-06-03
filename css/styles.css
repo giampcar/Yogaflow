@@ -311,7 +311,7 @@ font-family: 'Bilbo', cursive;
 /* HOME PAGE */
 
 
-	/* MAIN CONTAINER */
+	/*  CONTAINER */
 #main-content{	/* MAIN CONTAINER */
 
     background:Ivory;
@@ -501,7 +501,7 @@ svg {
    width: 100%;
   overflow: hidden;
   height: auto;
-  background: url('../images/main_large.jpg')  center no-repeat;
+  background: url('../images/main_large.svg')  center no-repeat;
   box-shadow: 30px -30px 10px 0 Ivory inset, -30px -30px 10px 0 Ivory inset;
   -webkit-background-size: 1000px 600px;
    border-radius:0 0 15px 15px;
@@ -516,7 +516,7 @@ svg {
   padding:0;
    width: 90%;
   overflow: hidden;
-  background: url('../images/main_large.jpg')  center no-repeat;
+  background: url('../images/main_large.svg')  center no-repeat;
   box-shadow: 20px -20px 5px 0 Ivory inset, -20px -20px 5px 0 Ivory inset;
   -webkit-background-size: 400px 200px;
    border-radius:0 0 15px 15px;
