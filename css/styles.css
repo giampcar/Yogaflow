@@ -128,10 +128,10 @@ font-family: 'Bilbo', cursive;
 #title {
 	font-family: 'Gentium Basic', serif;
 
-    background: url('../images/maripyoga.svg') no-repeat;
-    background-size: 250px 130px;
+    background: url('../images/maripyoga_1.svg') no-repeat;
+    background-size: 250px 100px;
       background-color: Ivory;
-
+      background-margin:30px;
   width:90%;
   height:auto;
   margin: auto, 0, auto, 0;
@@ -678,7 +678,7 @@ position: relative;
 
 .ul-classes h3{
 	  color:#61122f;
-  font-size: 27px;
+  font-size: 30px;
 		
 }
 
@@ -736,7 +736,7 @@ position: relative;
 
 .divid{
 	width:2px;
-	height:180px;
+	height:350px;
 		margin-top:15px;
 	background-color:#61122f;
 	 border-radius:100px;
