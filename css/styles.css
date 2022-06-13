@@ -154,6 +154,7 @@ font-family: 'Bilbo', cursive;
   #sections {
 	position:relative;
 
+
   width:100%;
   padding: 10px; 
   left:-12px;
@@ -208,6 +209,7 @@ font-family: 'Bilbo', cursive;
 
 #header-nav {
 	background-color:Ivory;
+
 	margin:0;
 	padding:0;
 	width:90%;
@@ -317,8 +319,10 @@ font-family: 'Bilbo', cursive;
 
 	/*  CONTAINER */
 #main-content{	/* MAIN CONTAINER */
+      background:Ivory;
+background-size: 107% 0%;
+background:Ivory;
 
-    background:Ivory;
 	padding: 1% 4% 0 6%;
 	width:90%;
 		margin-top: -10px;
@@ -820,4 +824,10 @@ position: relative;
   opacity: 0.8;
    color: white !important;
     box-shadow: 0px 5px 10px 9px gray;
+}
+
+img.opacity {
+  opacity: 0.2;
+  z-index: 1;
+  position: absolute;
 }
