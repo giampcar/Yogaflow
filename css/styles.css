@@ -325,7 +325,19 @@ background:Ivory;
 
 	padding: 1% 4% 0 6%;
 	width:90%;
-		margin-top: -10px;
+
+
+}
+
+
+#main-content-classes{  /* MAIN CONTAINER */
+      background:Ivory;
+background-size: 107% 0%;
+background:Ivory;
+
+  padding: 1% 4% 0 6%;
+  width:90%;
+    margin-top: -10px;
 
 }
 
@@ -378,7 +390,7 @@ ul {
   
   }
   
-  	.table-multi {
+  	.table-multi-classes {
     width:100%;
 	display: flex;
 	justify-content: space-between;
@@ -386,6 +398,16 @@ ul {
   margin-left: -2%;
 	
 }
+
+    .table-multi {
+    width:100%;
+  display: flex;
+  justify-content: space-between;
+
+  
+}
+
+
 
   	.table-multi-menu {
     width:50%;
