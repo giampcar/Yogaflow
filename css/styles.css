@@ -329,6 +329,26 @@ background:Ivory;
 
 }
 
+.logo-sfocato{ 
+position: relative;
+}
+
+img.opacity {
+  opacity: 0.1;
+  z-index: 0;
+
+}
+
+img.opacity_xs {
+  opacity: 0.15;
+  z-index: 0;
+
+left: 160px;
+height:50%;
+}
+
+
+
 #main-content-xs{	/* MAIN CONTAINER */
 
     background:Ivory;
@@ -362,6 +382,7 @@ ul {
     width:100%;
 	display: flex;
 	justify-content: space-between;
+  margin-top: -100%;
 	
 }
 
@@ -692,6 +713,15 @@ position: relative;
 
    }
 
+   .maschera-xs{
+  margin-top:20px;
+    height: 100%;
+    width: 100%;
+      margin-right:0px;
+          margin-top: -100%;
+
+   }
+
 /* CLASSES SECTION DETAILED */
 
 
@@ -842,19 +872,4 @@ position: relative;
     box-shadow: 0px 5px 10px 9px gray;
 }
 
-img.opacity {
-  opacity: 0.1;
-  z-index: 0;
-  position: absolute;
-  margin-left: 10%;
-   margin-right: 10%;
-}
 
-img.opacity_xs {
-  opacity: 0.15;
-  z-index: 0;
-  position: absolute;
-
-left: 160px;
-height:50%;
-}
