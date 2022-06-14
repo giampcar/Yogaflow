@@ -131,7 +131,7 @@ font-family: 'Bilbo', cursive;
     background: url('../images/maripyoga.svg') no-repeat;
     background-size: 250px 130px;
       background-color: Ivory;
-      background-margin:30px;
+     
   width:90%;
   height:auto;
   margin: auto, 0, auto, 0;
@@ -381,7 +381,17 @@ ul {
      width:30%;
      height: 200px;
 	    border-radius:20px;
+	   
    }
+   
+      #descr1_, #descr2_, #descr3_{
+  display:block;
+margin:0;
+padding:0;
+left:-20px;
+     width:280px;
+     height: 200px;
+}
    
    #descr2 {
 	position:relative;
@@ -391,8 +401,7 @@ ul {
      height: 200px;
 	    border-radius:20px;
    }
-   
-  
+ 
    #descr3 {
 	position:relative;
 	 background: url('../images/mindset.jpg') no-repeat center;
@@ -401,7 +410,7 @@ ul {
      height: 200px;
 	    border-radius:20px;
 }
-   
+
 
    /*sections text and desctiption*/
 	  #descr1 a, #descr2 a, #descr3 a{
@@ -451,6 +460,13 @@ ul {
      height: 100px;
 	     padding:0 50% 0 50%;
 		    border-radius:15px;
+}
+
+      #descr1-xs_, #descr2-xs_, #descr3-xs_  {
+
+     width:320px;
+     height: 100px;
+       display:block;
 }
    
 
