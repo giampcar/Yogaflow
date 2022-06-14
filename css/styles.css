@@ -383,6 +383,7 @@ ul {
 	display: flex;
 	justify-content: space-between;
   margin-top: -100%;
+  margin-left: -2%;
 	
 }
 
@@ -709,7 +710,7 @@ position: relative;
 	margin-top:20px;
 	  height: 100%;
 	  width: 100%;
-	  	margin-right:0px;
+
 
    }
 
