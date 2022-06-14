@@ -376,7 +376,7 @@ ul {
 	  #descr1 {
 
  	position:relative;
-	 background: url('../images/health-food.jpg') no-repeat center;
+	 background: url('../images/health-food.webp') no-repeat center;
 	background-size: cover;
      width:30%;
      height: 200px;
@@ -395,7 +395,7 @@ left:-20px;
    
    #descr2 {
 	position:relative;
-	 background: url('../images/Classes.jpg') no-repeat center;
+	 background: url('../images/Classes.webp') no-repeat center;
   background-size: cover;
      width:30%;
      height: 200px;
@@ -404,7 +404,7 @@ left:-20px;
  
    #descr3 {
 	position:relative;
-	 background: url('../images/mindset.jpg') no-repeat center;
+	 background: url('../images/mindset.webp') no-repeat center;
   background-size: cover;
      width:30%;
      height: 200px;
@@ -432,7 +432,7 @@ left:-20px;
    	  #descr1-xs {
 	position:relative;
 
-	 background: url('../images/health-food.jpg') no-repeat center;
+	 background: url('../images/health-food.webp') no-repeat center;
 
   background-size: cover;
      width:70%;
@@ -443,7 +443,7 @@ left:-20px;
    
    #descr2-xs  {
 	position:relative;
-	 background: url('../images/Classes.jpg') no-repeat center;
+	 background: url('../images/Classes.webp') no-repeat center;
   background-size: cover;
      width:70%;
      height: 100px;
@@ -454,7 +454,7 @@ left:-20px;
   
    #descr3-xs  {
 	position:relative;
-	 background: url('../images/mindset.jpg') no-repeat center;
+	 background: url('../images/mindset.webp') no-repeat center;
   background-size: cover;
     width:70%;
      height: 100px;
@@ -525,7 +525,7 @@ svg {
    width: 100%;
   overflow: hidden;
   height: auto;
-  background: url('../images/main_large.jpg')  center no-repeat;
+  background: url('../images/main_large.webp')  center no-repeat;
   box-shadow: 30px -30px 10px 0 Ivory inset, -30px -30px 10px 0 Ivory inset;
   -webkit-background-size: 1000px 600px;
    border-radius:0 0 15px 15px;
