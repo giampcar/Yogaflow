@@ -49,7 +49,7 @@
 	<!--  <button class="button_switch" ><a href="../Yogaflow/snippets/basic.html"><span >Problems with visualization?</span></a></button>-->
             <a href="../index.html"><h1>Yoga Flow</h1></a>
             <p>
-              <span>- Manuela Pokrivac -</span>a
+              <span>- Manuela Pokrivac -</span>
             </p>
 			<p>
 	<!--		<a id= "facebook" href="https://www.facebook.com/mariposayogawithlinda/" target="_blank" class="fa fa-facebook-square"></a>-->
@@ -74,11 +74,11 @@
 		<li class="table-multi-menu">
 			<a href="../index.html" ><h3>Home</h3></a>
 			<a><span id="divider" class= "fa fa-circle"></span></a> 
-			<a href="./classes.html"><h3>Classes</h3></a>
+			<a href="./classes.html"><h3>Klassen</h3></a>
 			<a><span id="divider" class= "fa fa-circle"></span></a>
-			<a href="./in-progress.html"><h3>Mindset</h3></a>
+			<a href="./in-progress.html"><h3>Yoga</h3></a>
 			<a><span id="divider" class= "fa fa-circle"></span></a>
-			<a href="./in-progress.html"><h3>Contacts</h3></a>
+			<a href="#Kontact"><h3>Kontakt</h3></a>
 		</li>
 	</ul>
  
@@ -95,15 +95,40 @@
 
 	
 			<ul class="ul-classes-events">
-		    <hr>
+
 		   <li>
 				<p><h3>Page in progress..</h3></p>
-
 				<i class="fa  fa-refresh w3-spin"></i>
 
 			</li>
+			<ul>
+
+<ul class="ul-classes">
+		    <hr>
+		   <li>
+		   
+				<p id="Kontact"><h5>Kontakt</h5></p>
+				<a><h6>Manuela Pokrivac</h6></a>
+				<a id= "CH_num" href="https://api.whatsapp.com/send?phone=796955331" target="_blank" class="bi bi-whatsapp">
+							<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+							<path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+							</svg>
+							</a>
+							<a><span id="divider" class= "fa fa-circle"></span></a> 
+							
+							<a id= "Mail" href="mailto:mariposayogaclass@gmail.com" target="_blank" class="fa fa-envelope"> </a>
+
+								<a><span id="divider" class= "fa fa-circle"></span></a> 
+
+							<a id="maps" target="_blank" href="https://www.google.com/maps/place/mariposayoga+lyss/@47.0812833,7.3020909,16z/data=!4m13!1m7!3m6!1s0x478e187319fdb50b:0xcc55190b0f3fff50!2sGr%C3%BCnweg+1,+3250+Lyss!3b1!8m2!3d47.0807435!4d7.3038032!3m4!1s0x478e19d657aa5487:0x56199363e61bb645!8m2!3d47.0809339!4d7.3038827?hl=it-IT" class="glyphicon glyphicon-map-marker"></a>
+								
+			</li>
+</ul>
+
 
 	</div>  
+
+
 
 
 
@@ -114,6 +139,7 @@
               <span id="footer"> &copy; Copyright G.Carducci - 2022
 			  <a id= "linkedin" href="https://www.linkedin.com/in/giampaolocarducci/" target="_blank" class="fa fa-linkedin-square"></a>
        		  <a id= "github" href="https://github.com/giampcar" target="_blank" class="fa fa-github-square"></a>
+       		  <p><a href="./data-protection/privacy-policy.html" target="_blank">Cookies policy</a></p>
 			
 			</span>
 
@@ -170,11 +196,11 @@
 		    <hr>
 		   <li><a href="../index.html">Home</a></li>
 		   <hr>
-			<li><a id="selector-classes"  href="./classes.html">Classes</a></li>
+			<li><a id="selector-classes"  href="./classes.html">Klassen</a></li>
 			 <hr>
-			<li><a href="./in-progress.html">Mindset</a></li>
+			<li><a href="./in-progress.html">Yoga</a></li>
 			 <hr>
-			<li><a href="./in-progress.html">Contacts</a></li>
+			<li><a href="#Kontact">Kontakt</a></li>
 			 <hr>
 		</ul>
 		
@@ -188,7 +214,7 @@
 
 	
 			<ul class="ul-classes-events">
-		    <hr>
+
 		   <li>
 				<p><h3>Page in progress..</h3></p>
 
@@ -196,6 +222,31 @@
 
 			</li>
 			<ul>
+
+<ul class="ul-classes">
+		    <hr>
+		   <li>
+		   
+				<p id="Kontact"><h5>Kontakt</h5></p>
+				<a><h6>Manuela Pokrivac</h6></a>
+				<a id= "CH_num" href="https://api.whatsapp.com/send?phone=796955331" target="_blank" class="bi bi-whatsapp">
+							<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+							<path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+							</svg>
+							</a>
+							<a><span id="divider" class= "fa fa-circle"></span></a> 
+							
+							<a id= "Mail" href="mailto:mariposayogaclass@gmail.com" target="_blank" class="fa fa-envelope"> </a>
+
+								<a><span id="divider" class= "fa fa-circle"></span></a> 
+
+							<a id="maps" target="_blank" href="https://www.google.com/maps/place/mariposayoga+lyss/@47.0812833,7.3020909,16z/data=!4m13!1m7!3m6!1s0x478e187319fdb50b:0xcc55190b0f3fff50!2sGr%C3%BCnweg+1,+3250+Lyss!3b1!8m2!3d47.0807435!4d7.3038032!3m4!1s0x478e19d657aa5487:0x56199363e61bb645!8m2!3d47.0809339!4d7.3038827?hl=it-IT" class="glyphicon glyphicon-map-marker"></a>
+								
+			</li>
+</ul>
+								
+			</li>
+</ul>	
 
   </div>
 
@@ -209,7 +260,7 @@
               <span id="footer-xs"> &copy; Copyright G.Carducci - 2022
 			  <a id= "linkedin-xs" href="https://www.linkedin.com/in/giampaolocarducci/" target="_blank" class="fa fa-linkedin-square"></a>
        		  <a id= "github-xs" href="https://github.com/giampcar" target="_blank" class="fa fa-github-square"></a>
-			   <p><a href="./data-protection/privacy-policy.html" target="_blank">Cookies policy</a></p>
+			   <p><a href="../data-protection/privacy-policy.html" target="_blank">Cookies policy</a></p>
 			
 			</span>
 			
