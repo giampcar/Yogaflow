@@ -359,6 +359,14 @@ left: 160px;
 height:50%;
 }
 
+img.opacity_home_xs {
+  opacity: 0.15;
+  z-index: -1;
+
+left: 160px;
+height:50%;
+}
+
 
 
 #main-content-xs{	/* MAIN CONTAINER */
@@ -469,6 +477,7 @@ left:-20px;
    
    #sections-xs {
 	position:relative;
+	margin-top:-80%;
 	width:80%;
 
    
@@ -590,6 +599,18 @@ svg {
    border-radius:0 0 15px 15px;
   
 }
+.container-xs {
+  display: inline-block;
+  position: relative;
+  margin-bottom:10px;
+  padding:0;
+   width: 90%;
+  overflow: hidden;
+  background: url('../images/maripyoga.svg')  center no-repeat;
+  box-shadow: 20px -20px 5px 0 Ivory inset, -20px -20px 5px 0 Ivory inset;
+  -webkit-background-size: 400px 200px;
+   border-radius:0 0 15px 15px;
+  }
 
 
 

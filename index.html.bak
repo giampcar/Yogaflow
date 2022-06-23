@@ -24,14 +24,6 @@
 
 
 
-<!-- PRELOAD IMAGES-->	
-
-<link rel="preload" as="image" href="./images/main_large.jpg">
-<link rel="preload" as="image" href="./images/health-food.jpg">
-<link rel="preload" as="image" href="./images/Classes.jpg">
-<link rel="preload" as="image" href="./images/mindset.jpg">
-
-<!-- PRELOAD IMAGES-->	
 		<link rel="icon" href="images\maripyoga_1.svg" type="image/x-icon" />
 	<link rel="shortcut icon" href="images\maripyoga_1.svg" type="image/x-icon" />
 	
@@ -45,7 +37,7 @@
   gtag('config', 'G-YPD4P3VNK1');
 </script>
 
-<script src="https://www.googleoptimize.com/optimize.js?id=OPT-KJ2TP3J"></script>
+<script src="https://www.googleoptimize.com/optimize.js?id=OPT-M4PZ4GS"></script>
 
   </head>
   
@@ -263,11 +255,8 @@
 </nav><!-- #header-nav -->
  
   <div id="main-content-xs" class="container-fluid visible-xs ">
-  	
+  	  			<img src="../images/maripyoga.svg"  alt="mariposalogo"  class="opacity_xs"> 	
  
-    <div id="container-shape-xs" class="container-xs"> <!-- contiene foto principale -->
- 
-</div>
   
   
   <div id="sections-xs" class="container-fluid"> <!-- contiene foto -->
