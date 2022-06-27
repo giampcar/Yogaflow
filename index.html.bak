@@ -105,7 +105,16 @@
 		<li class="table-multi-menu">
 			<p><a href="./index.html" class="selector-classes"><h3>Home</h3></a></p>
 			<p> <a><span id="divider" class= "fa fa-circle"></span></a> </p>
-			<p><h3><a href="./snippets/classes.html">Klassen</a></h3></p>
+			<p><h3><a href="./snippets/classes.html">
+				<div class="dropdown">Klassen
+ 				  <div class="dropdown-content mods">
+  					<p ><a href="./snippets/in-progress.html">Schwangerschaftsyoga</a></p>
+				    <p ><a href="./snippets/in-progress.html.html">Yin Yoga</a></p>
+				    <p ><a href="./snippets/in-progress.html.html">Yoga Flow</a></p>
+				    <p ><a href="./snippets/in-progress.html.html">Rückbildungsyoga</a></p>
+				    </div>
+				</div>
+</a></h3></p>
 			<p> <a><span id="divider" class= "fa fa-circle"></span></a> </p>
 			<p><h3><a href="./snippets/in-progress.html">Yoga</a></h3></p>
 			<p> <a><span id="divider" class= "fa fa-circle"></span></a> </p>
@@ -117,6 +126,7 @@
 
 </nav>
 </header>
+
 
 
 
@@ -255,7 +265,7 @@
 </nav><!-- #header-nav -->
  
   <div id="main-content-xs" class="container-fluid visible-xs ">
-  	  			<img src="../images/maripyoga.svg"  alt="mariposalogo"  class="opacity_xs"> 	
+  	  			<img src="../images/maripyoga.svg"  alt="mariposalogo"  class="opacity_home_xs"> 	
  
   
   

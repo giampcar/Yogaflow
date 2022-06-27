@@ -121,6 +121,27 @@ font-family: 'Bilbo', cursive;
 /** ################################**/
 /** ################################**/
 
+/** DROPDOWN in menu **/
+/** ################################**/
+/** ################################**/
+/** ################################**/
+
+.mods{
+  min-width: auto;
+  left: -100%;
+ }
+
+ .mods p:hover {
+  background-color: #DABDAB;
+    padding:0px;
+    margin: 0px;
+
+
+}
+/** ################################**/
+/** ################################**/
+/** ################################**/
+
 /** Sections background **/
 /** ################################**/
 /** ################################**/
@@ -360,11 +381,9 @@ height:50%;
 }
 
 img.opacity_home_xs {
-  opacity: 0.15;
-  z-index: -1;
+  opacity: 1;
+  width:45%;
 
-left: 160px;
-height:50%;
 }
 
 
@@ -477,7 +496,7 @@ left:-20px;
    
    #sections-xs {
 	position:relative;
-	margin-top:-90%;
+   /*margin-top:-80%;*/
 	width:80%;
 
    
@@ -830,7 +849,7 @@ position: relative;
 
 .divid{
 	width:2px;
-	height:350px;
+	height:400px;
 		margin-top:15px;
 	background-color:#61122f;
 	 border-radius:100px;
@@ -916,4 +935,6 @@ position: relative;
     box-shadow: 0px 5px 10px 9px gray;
 }
 
-
+.fa-envelope {
+z-index:2;
+}

@@ -381,11 +381,9 @@ height:50%;
 }
 
 img.opacity_home_xs {
-  opacity: 0.15;
-  z-index: -1;
+  opacity: 1;
+  width:45%;
 
-left: 160px;
-height:50%;
 }
 
 
@@ -498,7 +496,7 @@ left:-20px;
    
    #sections-xs {
 	position:relative;
-	margin-top:-80%;
+   /*margin-top:-80%;*/
 	width:80%;
 
    
@@ -851,7 +849,7 @@ position: relative;
 
 .divid{
 	width:2px;
-	height:350px;
+	height:400px;
 		margin-top:15px;
 	background-color:#61122f;
 	 border-radius:100px;

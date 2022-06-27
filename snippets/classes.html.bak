@@ -19,17 +19,18 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
 
 	
-		<link rel="icon" href="../images/favicon-96x96.ico" type="image/x-icon" />
-	<link rel="shortcut icon" href="../images/favicon-96x96.ico" type="image/x-icon" />
+		<link rel="icon" href="../images/maripyoga_1.svg" type="image/x-icon" />
+	<link rel="shortcut icon" href="../images/maripyoga_1.svg" type="image/x-icon" />
 	
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C909G41RC2"></script>
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YPD4P3VNK1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-C909G41RC2');
+  gtag('config', 'G-YPD4P3VNK1');
 </script>
 <script src="https://www.googleoptimize.com/optimize.js?id=OPT-KJ2TP3J"></script>
   </head>
@@ -111,6 +112,17 @@
 							</p>
 						</div>
 					</div>
+											<p>						
+						<div class="dropdown">
+						<p><h4>Buchen </h4></p>
+						<div class="dropdown-content">
+							<p>
+								<h5>Im Moment befinde ich mich im Mutterscaftsurlaub. <br>Neue Kurse finden ab November 2022 statt.</h5>
+							</p>
+						</div>
+					</div>
+					</p>
+					
 					<div><hr><div>
 
 					<a><h4>19:30 - 20:45 </h4></a>
@@ -124,7 +136,7 @@
 							</p>
 						</div>
 					</div>
-			<div><hr><div>
+						<p>
 						<div class="dropdown">
 						<p><h4>Buchen </h4></p>
 						<div class="dropdown-content">
@@ -133,6 +145,7 @@
 							</p>
 						</div>
 					</div>
+					</p>
 			
              <!--
 							<a id= "CH_num" href="https://api.whatsapp.com/send?phone=796955331" target="_blank" class="bi bi-whatsapp">
@@ -163,7 +176,18 @@
 							</p>
 						</div>
 					</div>
-							<div><hr><div>
+											<p>						
+						<div class="dropdown">
+						<p><h4>Buchen </h4></p>
+						<div class="dropdown-content">
+							<p>
+								<h5>Im Moment befinde ich mich im Mutterscaftsurlaub. <br>Neue Kurse finden ab November 2022 statt.</h5>
+							</p>
+						</div>
+					</div>
+					</p>
+					
+					<div><hr><div>
 										<a><h4>10:00 - 11:15 </h4></a>
 				<p><h4>Rückbildungsyoga</h4></p>
 				<div class="dropdown">
@@ -175,8 +199,7 @@
 							</p>
 						</div>
 					</div>
-					
-							<div><hr><div>
+						<p>						
 						<div class="dropdown">
 						<p><h4>Buchen </h4></p>
 						<div class="dropdown-content">
@@ -185,7 +208,9 @@
 							</p>
 						</div>
 					</div>
-
+					</p>
+					
+	
 					<!--
 							<a id= "CH_num" href="https://api.whatsapp.com/send?phone=796955331" target="_blank" class="bi bi-whatsapp">
 							<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
@@ -229,11 +254,15 @@
 							</a>
 							<a><span id="divider" class= "fa fa-circle"></span></a> 
 							
-							<a id= "Mail" href="mailto:mariposayogaclass@gmail.com" target="_blank" class="fa fa-envelope"> </a>
-
-								<a><span id="divider" class= "fa fa-circle"></span></a> 
-
 							<a id="maps" target="_blank" href="https://www.google.com/maps/place/mariposayoga+lyss/@47.0812833,7.3020909,16z/data=!4m13!1m7!3m6!1s0x478e187319fdb50b:0xcc55190b0f3fff50!2sGr%C3%BCnweg+1,+3250+Lyss!3b1!8m2!3d47.0807435!4d7.3038032!3m4!1s0x478e19d657aa5487:0x56199363e61bb645!8m2!3d47.0809339!4d7.3038827?hl=it-IT" class="glyphicon glyphicon-map-marker"></a>
+							
+								<a><span id="divider" class= "fa fa-circle"></span></a> 
+							<a id= "Mail" href="mailto:mariposayogaclass@gmail.com?subject=Kontact&body=I would like to be incontact with you to book some lessons" target="_blank" class="fa fa-envelope"> </a>
+
+
+							
+
+							
 								
 			</li>
 </ul>
@@ -346,6 +375,17 @@
 							</p>
 						</div>
 					</div>
+					<p>
+						<div class="dropdown">
+						<p><h4>Buchen </h4></p>
+						<div class="dropdown-content">
+							<p>
+								<h5>Im Moment befinde ich mich im Mutterscaftsurlaub. <br>Neue Kurse finden ab November 2022 statt.</h5>
+							</p>
+						</div>
+					</div>
+				</p>
+						    <hr>
 
 					<a><h4>19:30 - 20:45 </h4></a>
 				<p><h4>Yin Yoga</h4></p>
@@ -394,6 +434,17 @@
 							</p>
 						</div>
 					</div>
+									<p>
+						<div class="dropdown">
+						<p><h4>Buchen </h4></p>
+						<div class="dropdown-content">
+							<p>
+								<h5>Im Moment befinde ich mich im Mutterscaftsurlaub. <br>Neue Kurse finden ab November 2022 statt.</h5>
+							</p>
+						</div>
+					</div>
+				</p>
+						    <hr>
 
 										<a><h4>10:00 - 11:15 </h4></a>
 				<p><h4>Rückbildungsyoga</h4></p>
