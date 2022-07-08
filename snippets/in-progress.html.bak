@@ -122,7 +122,7 @@
 								<a><span id="divider" class= "fa fa-circle"></span></a> 
 
 							<a id="maps" target="_blank" href="https://www.google.com/maps/place/mariposayoga+lyss/@47.0812833,7.3020909,16z/data=!4m13!1m7!3m6!1s0x478e187319fdb50b:0xcc55190b0f3fff50!2sGr%C3%BCnweg+1,+3250+Lyss!3b1!8m2!3d47.0807435!4d7.3038032!3m4!1s0x478e19d657aa5487:0x56199363e61bb645!8m2!3d47.0809339!4d7.3038827?hl=it-IT" class="glyphicon glyphicon-map-marker"></a>
-																						<a><span id="divider" class= "fa fa-circle"></span></a> 
+								<a><span id="divider" class= "fa fa-circle"></span></a> 
 								<a id= "app" href="https://play.google.com/store/apps/details?id=com.Mariposa_Yoga.mariposayoga" target="_blank" class="fab fa-google-play" aria-hidden="true"> </a>
 			</li>
 </ul>
