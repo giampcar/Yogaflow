@@ -19,18 +19,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bilbo&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	
-		<link rel="icon" href="../images/favicon-96x96.ico" type="image/x-icon" />
-	<link rel="shortcut icon" href="../images/favicon-96x96.ico" type="image/x-icon" />
+		<link rel="icon" href="../images/maripyoga_1.svg" type="image/x-icon" />
+	<link rel="shortcut icon" href="../images/maripyoga_1.svg" type="image/x-icon" />
 	
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C909G41RC2"></script>
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YPD4P3VNK1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-C909G41RC2');
+  gtag('config', 'G-YPD4P3VNK1');
 </script>
 <script src="https://www.googleoptimize.com/optimize.js?id=OPT-KJ2TP3J"></script>
   </head>
@@ -121,7 +122,8 @@
 								<a><span id="divider" class= "fa fa-circle"></span></a> 
 
 							<a id="maps" target="_blank" href="https://www.google.com/maps/place/mariposayoga+lyss/@47.0812833,7.3020909,16z/data=!4m13!1m7!3m6!1s0x478e187319fdb50b:0xcc55190b0f3fff50!2sGr%C3%BCnweg+1,+3250+Lyss!3b1!8m2!3d47.0807435!4d7.3038032!3m4!1s0x478e19d657aa5487:0x56199363e61bb645!8m2!3d47.0809339!4d7.3038827?hl=it-IT" class="glyphicon glyphicon-map-marker"></a>
-								
+																						<a><span id="divider" class= "fa fa-circle"></span></a> 
+								<a id= "app" href="https://play.google.com/store/apps/details?id=com.Mariposa_Yoga.mariposayoga" target="_blank" class="fab fa-google-play" aria-hidden="true"> </a>
 			</li>
 </ul>
 
@@ -241,7 +243,8 @@
 								<a><span id="divider" class= "fa fa-circle"></span></a> 
 
 							<a id="maps" target="_blank" href="https://www.google.com/maps/place/mariposayoga+lyss/@47.0812833,7.3020909,16z/data=!4m13!1m7!3m6!1s0x478e187319fdb50b:0xcc55190b0f3fff50!2sGr%C3%BCnweg+1,+3250+Lyss!3b1!8m2!3d47.0807435!4d7.3038032!3m4!1s0x478e19d657aa5487:0x56199363e61bb645!8m2!3d47.0809339!4d7.3038827?hl=it-IT" class="glyphicon glyphicon-map-marker"></a>
-								
+														<a><span id="divider" class= "fa fa-circle"></span></a> 
+								<a id= "app" href="https://play.google.com/store/apps/details?id=com.Mariposa_Yoga.mariposayoga" target="_blank" class="fab fa-google-play" aria-hidden="true"> </a>	
 			</li>
 </ul>
 								
